@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'zephyrregular';
+  src: url('../font/zephyr-webfont.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+svg {
+  margin-left: 15px;
+}
+
+.my-name-is {
+  margin-left: 125px;
+  font-size: 20px;
+}
+
+.heading {
+  font-family: 'zephyrregular';
+  font-size: 125px;
+  font-weight: 100;
+  margin: 0px 105px 0 0;
+  margin-left: 105px;
+}
+
+.heading-container {
+  border: 1px solid black;
+}
+
+.tagline {
+  font-size: 45px;
+  margin-top: 0px;
+  margin-left: 105px;
+  color: grey;
+  width: 40%;
+}

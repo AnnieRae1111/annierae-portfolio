@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-container {
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  margin: 15px;
+  color: black;
+}
