@@ -5,8 +5,12 @@
   font-style: normal;
 }
 svg {
-  margin-left: 15px;
+  margin-left: 35px;
 }
+
+/* svg:hover {
+  box-shadow: 5px 10px 10px 5px white;
+} */
 
 .my-name-is {
   margin-left: 125px;
@@ -31,4 +35,24 @@ svg {
   margin-left: 105px;
   color: grey;
   width: 40%;
+}
+
+.landing-page-container {
+  margin-top: 80px;
+}
+
+.landing-info {
+  font-size: 30px;
+  margin-left: 105px;
+  width: 50%;
+}
+
+.landing-button {
+  margin-left: 105px;
+  width: 295px;
+  height: 83px;
+  border: 2px solid black;
+  background-color: #f2efe9;
+  border-radius: 20px;
+  font-size: 25px;
 }

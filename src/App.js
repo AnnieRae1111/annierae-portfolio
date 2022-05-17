@@ -6,11 +6,11 @@ import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import LandingPage from './components/LandingPage';
 import './css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="app-container">
-      AnnieRae
       <NavBar />
       <main className="main-container">
         <Routes>

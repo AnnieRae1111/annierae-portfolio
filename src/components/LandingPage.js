@@ -3,7 +3,6 @@ import '../css/LandingPage.css';
 const LandingPage = () => {
   return (
     <div className="landing-page-container">
-      LandingPage
       <div className="star-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -59,6 +58,12 @@ const LandingPage = () => {
           <p className="my-name-is"> Hi, my name is</p>
           <h2 className="heading">AnnieRae</h2>
           <p className="tagline">I create things for the digital realms.</p>
+          <p className="landing-info">
+            I'm a creative web developer with a pssion for design. I specialize
+            in creating unique web based experiences to help level up your brand
+            or online presence.
+          </p>
+          <button className="landing-button"> Learn More</button>
         </div>
       </div>
     </div>
