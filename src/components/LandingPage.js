@@ -1,4 +1,6 @@
 import '../css/LandingPage.css';
+import { Link } from 'react-router-dom';
+import landinggradient from '../assets/landingGradient.png';
 
 const LandingPage = () => {
   return (
@@ -55,15 +57,22 @@ const LandingPage = () => {
           </g>
         </svg>
         <div className="heading-container">
-          <p className="my-name-is"> Hi, my name is</p>
-          <h2 className="heading">AnnieRae</h2>
-          <p className="tagline">I create things for the digital realms.</p>
-          <p className="landing-info">
-            I'm a creative web developer with a pssion for design. I specialize
-            in creating unique web based experiences to help level up your brand
-            or online presence.
-          </p>
-          <button className="landing-button"> Learn More</button>
+          <div className="text-container">
+            <p className="my-name-is"> Hi, my name is</p>
+            <h2 className="heading">AnnieRae</h2>
+            <p className="tagline">I create things for the digital realms.</p>
+            <p className="landing-info">
+              I'm a creative web developer with a pssion for design. I
+              specialize in creating unique web based experiences to help level
+              up your brand or online presence.
+            </p>
+            <Link to="/services">
+              <button className="landing-button"> Learn More</button>
+            </Link>
+          </div>
+          <div className="gradient">
+            <img src={landinggradient} alt="gradient" />
+          </div>
         </div>
       </div>
     </div>

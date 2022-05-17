@@ -27,6 +27,17 @@ svg {
 
 .heading-container {
   border: 1px solid black;
+  display: flex;
+}
+
+.text-container {
+  display: inline-block;
+  border: 1px solid black;
+  width: 80%;
+}
+
+.gradient {
+  display: inline-block;
 }
 
 .tagline {
