@@ -1,10 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
-import NavBar from './components/Navbar';
-import About from './components/About';
-import Inquire from './components/Inquire';
-import Portfolio from './components/Portfolio';
-import Services from './components/Services';
-import LandingPage from './components/LandingPage';
+import NavBar from './components/pages/Navbar';
+import LandingPage from './components/pages/LandingPage';
+import About from './components/pages/About';
+import Services from './components/pages/Services';
+import Portfolio from './components/pages/Portfolio';
+import Inquire from './components/pages/Inquire';
+import Marquee from './components/Marquee';
+import Work from './components/Work';
 import './css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +23,10 @@ function App() {
           <Route path="/inquire" element={<Inquire />} />
         </Routes>
       </main>
+      <Marquee />
+      <section className="work">
+        <Work />
+      </section>
     </div>
   );
 }

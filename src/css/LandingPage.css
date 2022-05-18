@@ -10,6 +10,22 @@ svg {
   margin-left: 35px;
 }
 
+/* sticky info */
+
+.email {
+  writing-mode: vertical-rl;
+  position: fixed;
+  top: 0;
+}
+
+.email:hover {
+  color: #04c4d9;
+  cursor: pointer;
+}
+
+.email-span {
+  letter-spacing: 0.1rem;
+}
 /* svg:hover {
   box-shadow: 5px 10px 10px 5px white;
 } */
@@ -17,7 +33,7 @@ svg {
 /* ------TEXT ------ */
 
 .my-name-is {
-  margin-left: 150px;
+  /* margin-left: 150px; */
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   margin-top: 10px;
@@ -25,9 +41,9 @@ svg {
 
 .heading {
   font-family: 'zephyrregular';
-  font-size: 185px;
+  font-size: 110px;
   font-weight: 100;
-  margin-left: 105px;
+  /* margin-left: 105px; */
   margin-bottom: 0;
   padding: 0;
 }
@@ -50,7 +66,7 @@ svg {
 .tagline {
   font-size: 50px;
   margin-bottom: 15px;
-  margin-left: 105px;
+  /* margin-left: 105px; */
   color: black;
   width: 100%;
   font-family: 'Roboto', sans-serif;
@@ -61,23 +77,25 @@ svg {
 }
 
 .landing-info {
-  font-size: 30px;
-  margin-left: 105px;
-  width: 50%;
+  font-size: 23px;
+  /* margin-left: 105px; */
+  width: 55%;
   font-family: 'Roboto', sans-serif;
 }
 
 .landing-button {
-  margin-left: 105px;
+  /* margin-left: 105px; */
   margin-top: 30px;
-  width: 270px;
-  height: 83px;
+  width: 250px;
+  height: 70px;
   border: 2px solid black;
-  background-color: #f2efe9;
+  background-color: transparent;
   border-radius: 20px;
   font-size: 25px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .landing-button:hover {
-  box-shadow: 5px 10px 10px orange;
+  box-shadow: 5px 10px 10px #04c4d9;
 }

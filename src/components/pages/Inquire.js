@@ -1,4 +1,4 @@
-import '../css/inquire.css';
+import '../../css/inquire.css';
 
 const Inquire = () => {
   return <div>INQUIRE</div>;

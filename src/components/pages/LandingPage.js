@@ -1,0 +1,86 @@
+import '../../css/LandingPage.css';
+import { Link } from 'react-router-dom';
+
+const LandingPage = () => {
+  return (
+    <>
+      <p className="email">
+        {' '}
+        –––––––––––––{' '}
+        <span className="email-span">annierae.elizabeth@gmail.com</span>
+      </p>
+      <section className="landing-page-container container">
+        <div className="star-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            // xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="157"
+            height="140"
+            viewBox="0 0 157 140"
+          >
+            <defs>
+              <clipPath id="clipPath">
+                <rect
+                  id="Rectangle_2"
+                  data-name="Rectangle 2"
+                  width="103"
+                  height="103"
+                  fill="none"
+                />
+              </clipPath>
+              <clipPath id="clipPath-2">
+                <rect
+                  id="Rectangle_2-2"
+                  data-name="Rectangle 2"
+                  width="77"
+                  height="77"
+                  fill="none"
+                />
+              </clipPath>
+            </defs>
+            <g
+              id="Component_1_17"
+              data-name="Component 1 – 17"
+              transform="translate(54 37)"
+            >
+              <g id="Group_1" data-name="Group 1" clipPath="url(#clipPath)">
+                <path
+                  id="Path_1"
+                  data-name="Path 1"
+                  d="M103,51.5C57.223,54.66,54.66,57.222,51.5,103,48.34,57.222,45.777,54.66,0,51.5,45.777,48.34,48.34,45.777,51.5,0c3.16,45.777,5.723,48.34,51.5,51.5"
+                />
+              </g>
+            </g>
+            <g id="Component_1_18" data-name="Component 1 – 18">
+              <g id="Group_1-2" data-name="Group 1" clipPath="url(#clipPath-2)">
+                <path
+                  id="Path_1-2"
+                  data-name="Path 1"
+                  d="M77,38.5C42.778,40.863,40.863,42.777,38.5,77,36.137,42.777,34.222,40.863,0,38.5,34.222,36.137,36.137,34.222,38.5,0,40.863,34.222,42.778,36.137,77,38.5"
+                />
+              </g>
+            </g>
+          </svg>
+          <div className="heading-container">
+            <div className="text-container">
+              <p className="my-name-is"> Hi, my name is</p>
+              <h2 className="heading">AnnieRae</h2>
+              <p className="tagline">I create things for the digital realms.</p>
+              <p className="landing-info">
+                I'm a creative web developer with a passion for design. I
+                specialize in creating unique web based experiences to help
+                level up your brand or online presence.
+              </p>
+              <Link to="/services">
+                <button className="landing-button"> Learn More</button>
+              </Link>
+              {/* <img className="bottom-stars" src={stars} alt="" /> */}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default LandingPage;

@@ -1,0 +1,26 @@
+.style {
+  transform: translate3d(0, 0, 0);
+}
+
+.path-bg {
+  fill: red !important;
+}
+
+.path-text {
+  fill: none;
+}
+
+.path-bg {
+  fill: #39629c !important;
+}
+
+#path-span-two {
+  fill: #ffcd66 !important;
+  font-family: 'hwt-aetna-extra-condensed';
+}
+
+#text {
+  color: black;
+  width: 100%;
+  height: 100%;
+}
