@@ -1,10 +1,11 @@
 import '../css/LandingPage.css';
 import { Link } from 'react-router-dom';
-import landinggradient from '../assets/landingGradient.png';
+// import landinggradient from '../assets/landingGradient.png';
+import stars from '../assets/stars.svg';
 
 const LandingPage = () => {
   return (
-    <div className="landing-page-container">
+    <section className="landing-page-container">
       <div className="star-container">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -62,20 +63,18 @@ const LandingPage = () => {
             <h2 className="heading">AnnieRae</h2>
             <p className="tagline">I create things for the digital realms.</p>
             <p className="landing-info">
-              I'm a creative web developer with a pssion for design. I
+              I'm a creative web developer with a passion for design. I
               specialize in creating unique web based experiences to help level
               up your brand or online presence.
             </p>
             <Link to="/services">
               <button className="landing-button"> Learn More</button>
             </Link>
-          </div>
-          <div className="gradient">
-            <img src={landinggradient} alt="gradient" />
+            {/* <img className="bottom-stars" src={stars} alt="" /> */}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&family=Readex+Pro:wght@200;300;400;500;700&family=Roboto:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -8,4 +10,15 @@ body {
 
 .app-container {
   background-color: #f2efe9;
+  /* background-color: black; */
+  background-image: url(../assets/gradient.png),
+    url(../assets/bottom-stars-01.png);
+  /* background-position: top left, top left; */
+  background-repeat: no-repeat, no-repeat;
+  /* opacity: 0.9; */
+  background-position-y: 0%, 88%;
+  background-position-x: 75%, 90%;
+  background-size: 90%, 30%;
+  background-clip: padding-box;
+  height: 100vh;
 }
