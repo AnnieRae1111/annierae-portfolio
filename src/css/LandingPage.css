@@ -30,6 +30,11 @@ svg {
   box-shadow: 5px 10px 10px 5px white;
 } */
 
+/* Marquee */
+.marquee-section {
+  transform: scale(1.2);
+}
+
 /* ------TEXT ------ */
 
 .my-name-is {

@@ -11,12 +11,9 @@ const Marquee = () => {
         x="0px"
         y="0px"
         viewBox="0 0 1581.73 208"
-        // xml:space="preserve"
+        xmlSpace="preserve"
       >
-        <style type="text/css">
-          {/* .path-bg{ fill: red }
-          .path-text{ fill: none } */}
-        </style>
+        <style type="text/css"></style>
         <g>
           <path
             className="path-bg"
@@ -38,24 +35,22 @@ const Marquee = () => {
             id="path-text-two-letters"
           >
             <tspan id="path-span-two">
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence
-              -Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -
-              Learn the Code - Create the Unexpected - Charge with Confidence -{' '}
+              Let's Create Something Together - Let's Create Something Together
+              - Let's Create Something Together - Let's Create Something
+              Together - Let's Create Something Together - Let's Create
+              Something Together - Let's Create Something Together - Let's
+              Create Something Together - Let's Create Something Together -
+              Let's Create Something Together - Let's Create Something Together
+              - Let's Create Something Together - Let's Create Something
+              Together - Let's Create Something Together - Let's Create
+              Something Together -{' '}
             </tspan>
             <animate
               attributeName="startOffset"
               from="-3200"
               to="0"
-              begin="0s"
-              dur="150s"
+              begin="-1s"
+              dur="180s"
               repeatCount="indefinite"
             ></animate>
           </textPath>

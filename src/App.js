@@ -23,7 +23,7 @@ function App() {
           <Route path="/inquire" element={<Inquire />} />
         </Routes>
       </main>
-      <Marquee />
+      {/* <Marquee /> */}
       <section className="work">
         <Work />
       </section>

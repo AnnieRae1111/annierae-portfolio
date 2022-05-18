@@ -1,5 +1,6 @@
 import '../../css/LandingPage.css';
 import { Link } from 'react-router-dom';
+import Marquee from '../Marquee';
 
 const LandingPage = () => {
   return (
@@ -77,6 +78,9 @@ const LandingPage = () => {
               {/* <img className="bottom-stars" src={stars} alt="" /> */}
             </div>
           </div>
+        </div>
+        <div className="marquee-section">
+          <Marquee />
         </div>
       </section>
     </>
