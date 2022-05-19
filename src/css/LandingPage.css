@@ -128,3 +128,28 @@ a.email {
   height: 250px;
   background: black;
 }
+
+/* -----------Media Queries------------------ */
+@media only screen and (max-width: 670px) {
+  .email,
+  .email-span {
+    display: none;
+  }
+
+  .stars {
+    transform: scale(0.5);
+  }
+
+  .heading {
+    font-size: 80px;
+  }
+
+  .tagline {
+    font-size: 25px;
+  }
+
+  .landing-info {
+    font-size: 15px;
+    width: 100%;
+  }
+}
