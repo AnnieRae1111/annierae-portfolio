@@ -2,16 +2,16 @@ import '../css/work.css';
 import nasaApp from '../assets/in-the-stars.png';
 const WorkLeft = () => {
   return (
-    <div className="work-item container container">
+    <div className="work-item-left container">
       {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
-      <div className="image-container">
+      <div className="image-container-left">
         <article class="scroller">
           <section class="section">
             <img class="image" src={nasaApp} alt="" />
           </section>
         </article>
       </div>
-      <div className="text-container">
+      <div className="text-container-left">
         <h1>It's All In The Stars</h1>
         <a className="github" href="www.github.com">
           GITHUB

@@ -1,11 +1,61 @@
 .work-item {
   display: flex;
-  /* margin-top: 100px; */
-  height: 800px;
+  height: 700px;
+  width: 100%;
   background-color: #f2efe9;
-  align-items: center;
-  justify-content: space-between;
+  border: 1px solid black;
 }
+.work-item-left {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  background-color: #f2efe9;
+  border: 1px solid black;
+}
+
+.image-container-left {
+  display: inline-block;
+  margin: 50px;
+  height: 50%;
+  width: 70%;
+  /* transform: scale(1.9) translateY(-5%) translateX(25%); */
+}
+
+img {
+  height: 518px;
+  width: 535px;
+}
+
+.text-container-left {
+  display: inline-block;
+  margin: 70px;
+  align-items: center;
+}
+
+.image-container {
+  display: inline-block;
+  margin: 50px;
+  height: 50%;
+  width: 70%;
+}
+
+.text-container {
+  display: inline-block;
+  margin: 70px;
+  align-items: center;
+}
+
+/* 
+.image-container-left {
+  display: inline-block;
+  margin: 50px;
+  transform: scale(1.9) translateY(-5%) translateX(25%);
+}
+
+.text-container-left {
+  display: inline-block;
+  transform: translateX(35%);
+} */
 
 .selected-work {
   margin-top: 100px;
@@ -16,18 +66,6 @@ h1 {
   font-family: 'zephyrregular';
   font-size: 280px;
 }
-
-/* .github {
-  margin-top: 30px;
-  text-decoration: none;
-  margin-right: 5px;
-  color: #f2efe9;
-  font-family: 'Roboto', sans-serif;
-  border-radius: 10px;
-  padding: 8px;
-  cursor: pointer;
-  background-color: black;
-} */
 
 .liveapp,
 .github {
@@ -42,30 +80,17 @@ h1 {
   background-color: #dafdba;
 }
 
-.text-container {
-  display: inline-block;
-
-  /* justify-content: space-between; */
-  align-content: space-evenly;
-}
-
 .technologies-used,
 .work-info {
   margin-top: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   font-size: 25px;
-  width: 60%;
 }
 
-.image-container {
-  width: 50%;
-  display: inline-block;
-}
-
-img {
-  transform: scale(1.8);
-}
+/* img {
+  transform: scale(2);
+} */
 
 /* image scroll */
 
