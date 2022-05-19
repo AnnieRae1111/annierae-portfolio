@@ -4,15 +4,16 @@ import Marquee from '../Marquee';
 
 const LandingPage = () => {
   return (
-    <>
-      <p className="email">
+    <div className="landing-main-container">
+      <a href="mailto:annierae.elizabeth@gmail.com" className="email">
         {' '}
         –––––––––––––{' '}
         <span className="email-span">annierae.elizabeth@gmail.com</span>
-      </p>
+      </a>
       <section className="landing-page-container container">
         <div className="star-container">
           <svg
+            className="stars"
             xmlns="http://www.w3.org/2000/svg"
             // xmlns:xlink="http://www.w3.org/1999/xlink"
             width="157"
@@ -75,7 +76,6 @@ const LandingPage = () => {
               <Link to="/services">
                 <button className="landing-button"> Learn More</button>
               </Link>
-              {/* <img className="bottom-stars" src={stars} alt="" /> */}
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const LandingPage = () => {
           <Marquee />
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
