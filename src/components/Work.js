@@ -9,11 +9,21 @@ const Work = () => {
       {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
       <div className="text-container">
         <h1>It's All In The Stars</h1>
-        <a className="github" href="www.github.com">
+        <a
+          className="github"
+          href="https://github.com/AnnieRae1111/It-s-All-in-the-Stars-"
+          rel="noreferrer"
+          target="_blank"
+        >
           GITHUB
         </a>
         {'      '}
-        <a className="liveapp" href="www.github.com">
+        <a
+          className="liveapp"
+          href="https://its-all-in-the-stars.netlify.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
           LIVEAPP
         </a>
         <p className="technologies-used">

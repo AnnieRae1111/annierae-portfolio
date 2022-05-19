@@ -1,16 +1,14 @@
 .work-item {
   display: flex;
-  height: 700px;
+  height: 900px;
   width: 100%;
   background-color: #f2efe9;
-  border: 1px solid black;
 }
 .work-item-left {
   display: flex;
-  height: 700px;
+  height: 900px;
   width: 100%;
   background-color: #f2efe9;
-  border: 1px solid black;
 }
 
 .image-container-left {
@@ -22,8 +20,8 @@
 }
 
 img {
-  height: 518px;
-  width: 535px;
+  height: 718px;
+  width: 735px;
 }
 
 .text-container-left {
@@ -86,6 +84,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
   font-size: 25px;
+  width: 130%;
 }
 
 /* img {
