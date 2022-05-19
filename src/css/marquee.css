@@ -11,6 +11,7 @@
 }
 
 .path-bg {
+  /* fill: #b2e881 !important; */
   fill: transparent !important;
   /* fill: #f2af5c !important; */
   padding: 0;

@@ -6,6 +6,7 @@ import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
 import Inquire from './components/pages/Inquire';
 import Work from './components/Work';
+import WorkLeft from './components/WorkLeft';
 import './css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,6 +22,7 @@ function App() {
               <>
                 <LandingPage />
                 <Work />
+                <WorkLeft />
               </>
             }
           ></Route>

@@ -32,10 +32,12 @@ a.email {
   top: 0;
   text-decoration: none;
   color: inherit;
+  margin-left: 20px;
 }
 
 .email:hover {
-  color: #04c4d9;
+  /* color: #04c4d9; */
+  color: #b2e881;
   cursor: pointer;
 }
 
@@ -118,7 +120,7 @@ a.email {
 }
 
 .landing-button:hover {
-  box-shadow: 5px 10px 10px #04c4d9;
+  box-shadow: 5px 10px 10px#B2E881;
 }
 
 /* -------Footer------ */

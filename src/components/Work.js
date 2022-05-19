@@ -1,5 +1,7 @@
 import '../css/work.css';
 import nasaApp from '../assets/in-the-stars.png';
+import nasaScroll from '../assets/nasascroll.png';
+import screenCapture from '../assets/in-stars-screen-capture.png';
 
 const Work = () => {
   return (
@@ -24,7 +26,11 @@ const Work = () => {
         </p>
       </div>
       <div className="image-container">
-        <img src={nasaApp} alt="" />
+        <article class="scroller">
+          <section class="section">
+            <img class="image" src={nasaApp} alt="" />
+          </section>
+        </article>
       </div>
     </div>
   );
