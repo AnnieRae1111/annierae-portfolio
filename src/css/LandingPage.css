@@ -21,7 +21,7 @@
   opacity: 0.85;
   background-size: 100%, 30%;
   background-clip: padding-box;
-  height: 1420px;
+  height: 1220px;
 }
 
 /* sticky info */
@@ -213,7 +213,7 @@ a.email {
     align-items: center;
     justify-content: center;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 50px;
     background: radial-gradient(circle at 50% 50%, #0fc4d9 10%, #dafdba 100%);
     background-blend-mode: lighten;
   }

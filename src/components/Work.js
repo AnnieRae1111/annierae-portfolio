@@ -4,9 +4,17 @@ import nasaApp from '../assets/in-the-stars.png';
 // import screenCapture from '../assets/in-stars-screen-capture.png';
 import nasaScrollEdited from '../assets/nasascrolledited.png';
 
+import {
+  FaCss3Alt,
+  FaHtml5,
+  FaJsSquare,
+  FaReact,
+  FaBootstrap,
+} from 'react-icons/fa';
+
 const Work = () => {
   return (
-    <div className="work-item container container">
+    <div className="work-item container ">
       {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
       <div className="work-text-container">
         <h1>It's All In The Stars</h1>
@@ -27,6 +35,13 @@ const Work = () => {
         >
           LIVEAPP
         </a>
+        <p className="work-icons">
+          <FaHtml5 />
+          <FaCss3Alt />
+          <FaJsSquare />
+          <FaReact />
+          <FaBootstrap />
+        </p>
         <p className="technologies-used">
           Technologies: HTML, CSS, Javascript, React, reactStrap, Context API,
           Styled Components.

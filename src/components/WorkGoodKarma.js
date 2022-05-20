@@ -1,20 +1,23 @@
 import '../css/work.css';
 import nasaApp from '../assets/in-the-stars.png';
-import { Link } from 'react-router-dom';
+import goodkarmapng from '../assets/good-karma.png';
 
-import goodKarma from '../assets/good-karma.png';
-const WorkLeft = () => {
+import {
+  FaCss3Alt,
+  FaHtml5,
+  FaJsSquare,
+  FaReact,
+  FaBootstrap,
+  FaNodeJs,
+} from 'react-icons/fa';
+
+import { SiMongodb, SiExpress } from 'react-icons/si';
+
+const WorkGoodKarma = () => {
   return (
-    <div className="work-item-left container">
+    <div className="work-item container ">
       {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
-      <div className="image-container-left">
-        <article class="scroller">
-          <section class="section">
-            <img class="image-left" src={goodKarma} alt="" />
-          </section>
-        </article>
-      </div>
-      <div className="text-container-left">
+      <div className="work-text-container">
         <h1>Good Karma</h1>
         <a
           className="github"
@@ -33,6 +36,17 @@ const WorkLeft = () => {
         >
           LIVEAPP
         </a>
+        <p className="work-icons">
+          <FaHtml5 />
+          <FaCss3Alt />
+          <FaJsSquare />
+          <FaReact />
+          <FaBootstrap />
+          <FaNodeJs />
+          <SiExpress />
+          <SiMongodb />
+        </p>
+
         <p className="technologies-used">
           Technologies: HTML, CSS, Javascript, React, reactStrap, react reveal ,
           Node, Express, MongoDB, Mongoose
@@ -41,8 +55,15 @@ const WorkLeft = () => {
           Easily give your gently loved items to those in need.
         </p>
       </div>
+      <div className="image-container">
+        <article class="scroller">
+          <section class="section">
+            <img class="image-right" src={goodkarmapng} alt="" />
+          </section>
+        </article>
+      </div>
     </div>
   );
 };
 
-export default WorkLeft;
+export default WorkGoodKarma;
