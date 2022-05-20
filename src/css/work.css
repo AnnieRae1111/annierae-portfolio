@@ -1,46 +1,75 @@
-.work-item {
+/* .work-item {
   display: flex;
   height: 900px;
   width: 100%;
   background-color: #f2efe9;
-}
+  background-color: black;
+  color: white;
+  border-radius: 70px;
+  margin-bottom: 100px;
+} */
+/* .work-item-left {
+  display: flex;
+  height: 900px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-bottom: 100px;
+  border-radius: 70px;
+} */
+
+.work-item,
 .work-item-left {
   display: flex;
   height: 900px;
   width: 100%;
   background-color: #f2efe9;
+  /* background-color: black;
+  color: white;
+  border-radius: 70px;
+  margin-bottom: 100px; */
 }
 
 .image-container-left {
   display: inline-block;
-  margin: 50px;
+  /* margin: 50px; */
   height: 50%;
   width: 70%;
   /* transform: scale(1.9) translateY(-5%) translateX(25%); */
 }
 
 img {
-  height: 718px;
-  width: 735px;
+  height: 618px;
+  width: 635px;
 }
 
-.text-container-left {
+/* .text-container-left {
   display: inline-block;
   margin: 70px;
   align-items: center;
-}
+} */
 
 .image-container {
   display: inline-block;
-  margin: 50px;
-  height: 50%;
-  width: 70%;
+  /* margin: 50px; */
+  /* height: 50%;
+  width: 70%; */
+}
+
+.text-container,
+.text-container-left {
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  padding-top: 25px;
+}
+
+.text-container-left {
+  margin-left: 30px;
 }
 
 .text-container {
-  display: inline-block;
-  margin: 70px;
-  align-items: center;
+  margin-right: 30px;
 }
 
 /* 
@@ -49,15 +78,10 @@ img {
   margin: 50px;
   transform: scale(1.9) translateY(-5%) translateX(25%);
 }
-
 .text-container-left {
   display: inline-block;
   transform: translateX(35%);
 } */
-
-.selected-work {
-  margin-top: 100px;
-}
 
 h1 {
   margin-top: 100px;
@@ -83,8 +107,7 @@ h1 {
   margin-top: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
-  font-size: 25px;
-  width: 130%;
+  font-size: 20px;
 }
 
 /* img {
@@ -99,7 +122,6 @@ h1 {
   scroll-snap-type: y mandatory;
   transform: scale(1.8);
 }
-
 .scroller section {
   scroll-snap-align: start;
 } */

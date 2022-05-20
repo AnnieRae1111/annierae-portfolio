@@ -152,4 +152,17 @@ a.email {
     font-size: 15px;
     width: 100%;
   }
+
+  .heading-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .landing-button {
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
 }

@@ -1,7 +1,8 @@
 import '../css/work.css';
 import nasaApp from '../assets/in-the-stars.png';
-import nasaScroll from '../assets/nasascroll.png';
-import screenCapture from '../assets/in-stars-screen-capture.png';
+// import nasaScroll from '../assets/nasascroll.png';
+// import screenCapture from '../assets/in-stars-screen-capture.png';
+import nasaScrollEdited from '../assets/nasascrolledited.png';
 
 const Work = () => {
   return (
@@ -28,7 +29,7 @@ const Work = () => {
         </a>
         <p className="technologies-used">
           Technologies: HTML, CSS, Javascript, React, reactStrap, Context API,
-          Styled Components
+          Styled Components.
         </p>
         <p className="work-info">
           Created with NASA’s APOD API. Catch a daily glimpse from outer space
@@ -38,7 +39,7 @@ const Work = () => {
       <div className="image-container">
         <article class="scroller">
           <section class="section">
-            <img class="image" src={nasaApp} alt="" />
+            <img class="image-right" src={nasaApp} alt="" />
           </section>
         </article>
       </div>
