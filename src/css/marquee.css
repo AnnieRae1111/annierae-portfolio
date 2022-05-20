@@ -2,10 +2,6 @@
   transform: translate3d(0, 0, 0);
 }
 
-.path-bg {
-  fill: red !important;
-}
-
 .path-text {
   fill: none;
 }
@@ -38,4 +34,15 @@
 
 svg.wavy-svg-two {
   transform: scale(1.25) rotate(-15deg);
+}
+
+/* ----Media Queries------ */
+@media only screen and (max-width: 670px) {
+  /* .path-bg {
+    fill: #dafdba !important;
+  } */
+
+  #path-span-two {
+    font-size: 30px;
+  }
 }

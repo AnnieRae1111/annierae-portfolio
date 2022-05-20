@@ -137,7 +137,8 @@ a.email {
   }
 
   .stars {
-    transform: scale(0.5);
+    display: none;
+    transform: scale(0.5) translateY(110%) translateX(20%);
   }
 
   .heading {
@@ -156,6 +157,16 @@ a.email {
   .heading-container {
     width: 80%;
     margin: 0 auto;
+    /* border: 1px solid black; */
+    padding: 1.5rem;
+    /* background: #b2e881; */
+    /* border-radius: 500px 500px 0 0; */
+    /* background: radial-gradient(circle at 50% 50%, #0fc4d9 10%, #dafdba 100%); */
+  }
+
+  .my-name-is {
+    margin-top: 20px;
+    margin-left: 20px;
   }
 
   .landing-button {
@@ -164,5 +175,26 @@ a.email {
     font-size: 15px;
     border-radius: 10px;
     margin-bottom: 15px;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+
+  .landing-info {
+    width: 100%;
+  }
+
+  .landing-main-container {
+    background-image: url(../assets/gradient.png),
+      url(../assets/bottom-stars-01.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 8%, 88%;
+    background-position-x: 15%, 90%;
+    opacity: 0.85;
+    background-size: 130%, 30%;
+    background-clip: padding-box;
+    height: 1420px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
 }
