@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <div className="work-item container container">
       {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
-      <div className="text-container">
+      <div className="work-text-container">
         <h1>It's All In The Stars</h1>
         <a
           className="github"

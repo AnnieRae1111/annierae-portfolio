@@ -37,12 +37,16 @@ svg.wavy-svg-two {
 }
 
 /* ----Media Queries------ */
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 480px) {
   /* .path-bg {
     fill: #dafdba !important;
   } */
 
   #path-span-two {
     font-size: 30px;
+  }
+
+  .my-name-is {
+    font-size: 15px;
   }
 }

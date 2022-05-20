@@ -75,7 +75,7 @@ a.email {
   display: flex;
 }
 
-.text-container {
+.work-text-container {
   display: inline-block;
   /* border: 1px solid black; */
   width: 80%;
@@ -130,15 +130,17 @@ a.email {
 }
 
 /* -----------Media Queries------------------ */
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 480px) {
+  /* ------Landing Page---- */
   .email,
   .email-span {
     display: none;
   }
 
   .stars {
-    display: none;
-    transform: scale(0.5) translateY(110%) translateX(20%);
+    /* display: none; */
+    transform: scale(0.5);
+    /* transform: scale(0.5) translateY(110%) translateX(20%); */
   }
 
   .heading {
@@ -155,13 +157,11 @@ a.email {
   }
 
   .heading-container {
+    padding: 0;
     width: 80%;
     margin: 0 auto;
-    /* border: 1px solid black; */
+    top: 0;
     padding: 1.5rem;
-    /* background: #b2e881; */
-    /* border-radius: 500px 500px 0 0; */
-    /* background: radial-gradient(circle at 50% 50%, #0fc4d9 10%, #dafdba 100%); */
   }
 
   .my-name-is {
@@ -184,17 +184,43 @@ a.email {
   }
 
   .landing-main-container {
-    background-image: url(../assets/gradient.png),
-      url(../assets/bottom-stars-01.png);
+    height: 800px;
+    background-image: url(../assets/gradient.png);
     background-repeat: no-repeat, no-repeat;
-    background-position-y: 8%, 88%;
-    background-position-x: 15%, 90%;
+    background-position-y: 8%;
+    background-position-x: 15%;
     opacity: 0.85;
     background-size: 130%, 30%;
     background-clip: padding-box;
-    height: 1420px;
     align-items: center;
     align-content: center;
     justify-content: center;
+  }
+
+  .text-container {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  /* --------Work Items -------- */
+  .work-item {
+    margin: 80px 20px 80px 20px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: radial-gradient(circle at 50% 50%, #0fc4d9 10%, #dafdba 100%);
+    background-blend-mode: lighten;
+  }
+  .image-right,
+  .image-left {
+    width: 417.5px;
+    height: 409px;
+    padding: 0.5rem;
   }
 }
