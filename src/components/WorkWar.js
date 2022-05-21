@@ -1,16 +1,7 @@
 import '../css/work.css';
 import warpng from '../assets/War.png';
 
-import {
-  FaCss3Alt,
-  FaHtml5,
-  FaJsSquare,
-  FaReact,
-  FaBootstrap,
-  FaNodeJs,
-} from 'react-icons/fa';
-
-import { SiMongodb, SiExpress } from 'react-icons/si';
+import { FaCss3Alt, FaHtml5, FaJsSquare } from 'react-icons/fa';
 
 const WorkWar = ({ Project1 }) => {
   return (

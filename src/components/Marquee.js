@@ -50,7 +50,7 @@ const Marquee = () => {
               from="-3200"
               to="0"
               begin="-1s"
-              dur="80s"
+              dur="70s"
               repeatCount="indefinite"
             ></animate>
           </textPath>

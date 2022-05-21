@@ -1,5 +1,4 @@
 import '../css/work.css';
-import nasaApp from '../assets/in-the-stars.png';
 import goodkarmapng from '../assets/good-karma.png';
 
 import {
@@ -16,7 +15,6 @@ import { SiMongodb, SiExpress } from 'react-icons/si';
 const WorkGoodKarma = () => {
   return (
     <div className="work-item container ">
-      {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
       <div className="work-text-container">
         <h1>Good Karma</h1>
         <a
