@@ -1,8 +1,5 @@
 import '../css/work.css';
 import nasaApp from '../assets/in-the-stars.png';
-// import nasaScroll from '../assets/nasascroll.png';
-// import screenCapture from '../assets/in-stars-screen-capture.png';
-import nasaScrollEdited from '../assets/nasascrolledited.png';
 
 import {
   FaCss3Alt,
@@ -12,10 +9,9 @@ import {
   FaBootstrap,
 } from 'react-icons/fa';
 
-const Work = () => {
+const Work = ({ Project1 }) => {
   return (
     <div className="work-item container ">
-      {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
       <div className="work-text-container">
         <h1>It's All In The Stars</h1>
         <a
@@ -52,14 +48,33 @@ const Work = () => {
         </p>
       </div>
       <div className="image-container">
-        <article class="scroller">
-          <section class="section">
-            <img class="image-right" src={nasaApp} alt="" />
-          </section>
-        </article>
+        {/* <article class="scroller">
+          <section class="section"> */}
+        <img class="image-right" src={nasaApp} alt="" />
+        {/* </section>
+        </article> */}
       </div>
     </div>
   );
+};
+
+Work.defaultProps = {
+  Project1: {
+    title: "It's All in the Stars",
+    technologies:
+      'Technologies: HTML, CSS, JavaScript, React, reactStrap, Context API, Styled Components ',
+    info: "Created with NASA's APOD API. Catch a daily glimpse from outspace and read your horoscope.",
+    github: 'https://github.com/AnnieRae1111/It-s-All-in-the-Stars-',
+    liveApp: 'https://its-all-in-the-stars.netlify.app/',
+  },
+  Project2: {
+    title: 'Good Karma',
+    technologies:
+      'HTML, CSS, JavaScript, React, reactStrap, React Reveal, Node, Express, MongoDB, Mongoose',
+    info: 'Easily give your gently loved items to those in need',
+    github: 'https://github.com/AnnieRae1111/Giveback-app-front-end',
+    liveApp: 'https://goodkarma-app.herokuapp.com/signin',
+  },
 };
 
 export default Work;

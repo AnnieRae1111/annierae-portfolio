@@ -1,0 +1,21 @@
+.navbar-container {
+  display: flex;
+  padding: 1rem;
+}
+
+.navbar.flexend {
+  justify-content: flex-end;
+}
+
+.navlink,
+.nav-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: black;
+}
+
+.nav-button {
+  background-color: #dafdba !important;
+  color: black !important;
+  margin-left: 5px;
+}

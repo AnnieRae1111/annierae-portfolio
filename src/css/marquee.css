@@ -40,6 +40,7 @@ svg.wavy-svg-two {
 @media only screen and (max-width: 480px) {
   /* .path-bg {
     fill: #dafdba !important;
+    fill: black !important;
   } */
 
   #path-span-two {

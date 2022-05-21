@@ -1,6 +1,5 @@
 import '../css/work.css';
-import nasaApp from '../assets/in-the-stars.png';
-import goodkarmapng from '../assets/good-karma.png';
+import warpng from '../assets/War.png';
 
 import {
   FaCss3Alt,
@@ -13,15 +12,14 @@ import {
 
 import { SiMongodb, SiExpress } from 'react-icons/si';
 
-const WorkGoodKarma = () => {
+const WorkWar = ({ Project1 }) => {
   return (
     <div className="work-item container ">
-      {/* <h2 className="selected-work">Selected Work –––––––––</h2> */}
       <div className="work-text-container">
-        <h1>Good Karma</h1>
+        <h1>War - Card Game</h1>
         <a
           className="github"
-          href="https://github.com/AnnieRae1111/Giveback-app-front-end"
+          href="https://github.com/AnnieRae1111/War"
           rel="noreferrer"
           target="_blank"
         >
@@ -30,7 +28,7 @@ const WorkGoodKarma = () => {
         {'      '}
         <a
           className="liveapp"
-          href="https://goodkarma-app.herokuapp.com/signin"
+          href="https://annierae1111.github.io/War/"
           rel="noreferrer"
           target="_blank"
         >
@@ -40,25 +38,14 @@ const WorkGoodKarma = () => {
           <FaHtml5 />
           <FaCss3Alt />
           <FaJsSquare />
-          <FaReact />
-          <FaBootstrap />
-          <FaNodeJs />
-          <SiExpress />
-          <SiMongodb />
         </p>
-
-        <p className="technologies-used">
-          Technologies: HTML, CSS, Javascript, React, reactStrap, react reveal ,
-          Node, Express, MongoDB, Mongoose
-        </p>
-        <p className="work-info">
-          Easily give your gently loved items to those in need.
-        </p>
+        <p className="technologies-used">Technologies: HTML, CSS, Javascript</p>
+        <p className="work-info">A spin on the classic card game, War.</p>
       </div>
       <div className="image-container">
         {/* <article class="scroller">
           <section class="section"> */}
-        <img class="image-right" src={goodkarmapng} alt="" />
+        <img class="image-right" src={warpng} alt="" />
         {/* </section>
         </article> */}
       </div>
@@ -66,4 +53,4 @@ const WorkGoodKarma = () => {
   );
 };
 
-export default WorkGoodKarma;
+export default WorkWar;

@@ -1,16 +1,13 @@
 .navbar {
   display: flex;
   justify-content: flex-end !important;
-  /* border: 2px solid black; */
   position: fixed;
 }
 
 .navbar-container {
-  /* font-size: 20px; */
   display: flex;
   justify-content: flex-end;
   margin-right: 30px;
-  /* position: fixed; */
   margin-top: 20px;
 }
 
