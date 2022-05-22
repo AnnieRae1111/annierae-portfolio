@@ -10,6 +10,7 @@ import Work from './components/Work';
 import WorkGoodKarma from './components/WorkGoodKarma';
 import WorkWar from './components/WorkWar';
 import './css/App.css';
+import ProjectScroller from './components/ProjectScroller';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -24,9 +25,10 @@ function App() {
             element={
               <>
                 <LandingPage />
-                <Work />
+                <ProjectScroller />
+                {/* <Work />
                 <WorkGoodKarma />
-                <WorkWar />
+                <WorkWar /> */}
               </>
             }
           ></Route>

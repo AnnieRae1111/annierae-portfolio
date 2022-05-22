@@ -13,6 +13,11 @@ body {
 }
 
 /* -----Scroll Section----- */
+
+.scroll-container {
+  height: 800px;
+}
+
 /* .scroller {
   margin-top: 800px;
   height: 900px;
