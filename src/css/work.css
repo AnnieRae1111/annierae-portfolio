@@ -117,4 +117,10 @@ h1 {
   h1 {
     font-size: 80%;
   }
+
+  a.github,
+  a.liveapp {
+    height: 80px;
+    width: 80%;
+  }
 }
