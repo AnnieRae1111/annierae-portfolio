@@ -29,18 +29,42 @@
 } */
 
 .slider {
-  font-family: sans-serif;
+  height: 80%;
+  /* border: 5px solid black; */
+  background-color: #707070;
   scroll-snap-type: x mandatory;
   display: flex;
-  -webkit-overflow-scrolling: touch;
+  align-items: center;
+  /* -webkit-overflow-scrolling: touch; */
   overflow-x: auto;
+  overscroll-behavior-inline: contain;
 }
 .section {
-  border-right: 1px solid white;
+  display: flex;
+  color: white;
+  align-items: center;
+  /* border-right: 1px solid white; */
+  padding-top: 2rem;
   padding: 1rem;
+  margin: 1rem;
   min-width: 100vw;
   height: 100vh;
-  /* scroll-snap-align: start; */
-  /* text-align: center; */
   position: relative;
+}
+
+/* .section-stuff {
+  width: 90%;
+} */
+
+.section-stuff {
+  /* background-color: blue; */
+  padding: 1rem;
+  margin: 1rem;
+  min-width: 70vh;
+  position: relative;
+}
+
+.things {
+  color: white;
+  text-align: center;
 }

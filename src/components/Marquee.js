@@ -35,15 +35,12 @@ const Marquee = () => {
             id="path-text-two-letters"
           >
             <tspan id="path-span-two">
-              Let's Create Something Together - Let's Create Something Together
-              - Let's Create Something Together - Let's Create Something
-              Together - Let's Create Something Together - Let's Create
-              Something Together - Let's Create Something Together - Let's
-              Create Something Together - Let's Create Something Together -
-              Let's Create Something Together - Let's Create Something Together
-              - Let's Create Something Together - Let's Create Something
-              Together - Let's Create Something Together - Let's Create
-              Something Together -{' '}
+              Web Designer & Developer Web Designer & Developer Web Designer &
+              Developer Web Designer & Developer Web Designer & Developer Web
+              Designer & Developer Web Designer & Developer Web Designer &
+              Developer Web Designer & Developer Web Designer & Developer Web
+              Designer & Developer Web Designer & Developer Web Designer &
+              Developer Web Designer & Developer Web Designer & Developer{' '}
             </tspan>
             <animate
               attributeName="startOffset"

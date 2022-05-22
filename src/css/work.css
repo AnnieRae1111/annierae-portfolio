@@ -2,22 +2,16 @@
 .work-item-left {
   display: flex;
   height: 900px;
-  /* background-color: #f2efe9; */
+  align-items: center;
 }
 
 img {
-  height: 818px;
-  width: 835px;
+  height: 618px;
+  width: 635px;
   /* transition: filter 0.5s ease-in-out;
   -webkit-filter: grayscale(0%);
   filter: grayscale(9%); */
 }
-
-/* img:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(80%);
-  filter: gray;
-} */
 
 .image-container {
   display: inline-block;
