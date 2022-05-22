@@ -6,11 +6,13 @@ import About from './components/pages/About';
 import Services from './components/pages/Services';
 import Portfolio from './components/pages/Portfolio';
 import Inquire from './components/pages/Inquire';
+import Marquee from './components/Marquee';
 import Work from './components/Work';
 import WorkGoodKarma from './components/WorkGoodKarma';
 import WorkWar from './components/WorkWar';
 import './css/App.css';
 import ProjectScroller from './components/ProjectScroller';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -25,6 +27,9 @@ function App() {
             element={
               <>
                 <LandingPage />
+                <div className="marquee-section">
+                  <Marquee />
+                </div>
                 <ProjectScroller />
                 {/* <Work />
                 <WorkGoodKarma />
@@ -38,7 +43,7 @@ function App() {
           <Route path="/inquire" element={<Inquire />} />
         </Routes>
       </main>
-      <footer className="footer">This is the footer</footer>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,4 @@
-.work-item,
-.work-item-left {
+.work-item {
   display: flex;
   height: 900px;
   align-items: center;

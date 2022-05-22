@@ -1,6 +1,6 @@
 import '../css/work.css';
 import nasaApp from '../assets/in-the-stars.png';
-
+import inTheStars from '../assets/in-the-stars-with-stars.png';
 import {
   FaCss3Alt,
   FaHtml5,
@@ -50,7 +50,7 @@ const Work = ({ Project1 }) => {
       <div className="image-container">
         {/* <article class="scroller">
           <section class="section"> */}
-        <img class="image-right" src={nasaApp} alt="" />
+        <img class="image-right" src={inTheStars} alt="" />
         {/* </section>
         </article> */}
       </div>

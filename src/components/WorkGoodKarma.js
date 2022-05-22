@@ -1,6 +1,6 @@
 import '../css/work.css';
 import goodkarmapng from '../assets/good-karma.png';
-
+import goodKarmaStars from '../assets/GoodKarmaStars.png';
 import {
   FaCss3Alt,
   FaHtml5,
@@ -56,7 +56,7 @@ const WorkGoodKarma = () => {
       <div className="image-container">
         {/* <article class="scroller">
           <section class="section"> */}
-        <img class="image-right" src={goodkarmapng} alt="" />
+        <img class="image-right" src={goodKarmaStars} alt="" />
         {/* </section>
         </article> */}
       </div>

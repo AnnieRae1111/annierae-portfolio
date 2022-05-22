@@ -1,5 +1,6 @@
 import '../css/work.css';
 import warpng from '../assets/War.png';
+import warStars from '../assets/WarStars.png';
 
 import { FaCss3Alt, FaHtml5, FaJsSquare } from 'react-icons/fa';
 
@@ -36,7 +37,7 @@ const WorkWar = ({ Project1 }) => {
       <div className="image-container">
         {/* <article class="scroller">
           <section class="section"> */}
-        <img class="image-right" src={warpng} alt="" />
+        <img class="image-right" src={warStars} alt="" />
         {/* </section>
         </article> */}
       </div>

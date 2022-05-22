@@ -21,7 +21,7 @@
   opacity: 0.85;
   background-size: 100%, 30%;
   background-clip: padding-box;
-  height: 1220px;
+  height: 100vh;
 }
 
 /* sticky info */
@@ -71,7 +71,7 @@ a.email {
 
 .work-text-container {
   display: inline-block;
-  width: 80%;
+  /* width: 80%; */
   justify-content: space-evenly;
 }
 
@@ -87,9 +87,9 @@ a.email {
   font-family: 'Roboto', sans-serif;
 }
 
-.landing-page-container {
+/* .landing-page-container {
   margin-top: 40px;
-}
+} */
 
 .landing-info {
   font-size: 23px;
@@ -101,22 +101,17 @@ a.email {
   margin-top: 30px;
   width: 240px;
   height: 60px;
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: #dafdba;
   border-radius: 10px;
   font-size: 25px;
   color: black;
   font-family: 'Roboto', sans-serif;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .landing-button:hover {
   box-shadow: 5px 10px 10px#B2E881;
-}
-
-/* -------Footer------ */
-.footer {
-  height: 250px;
-  background: black;
 }
 
 /* -----------Media Queries------------------ */
@@ -194,7 +189,7 @@ a.email {
   }
 
   /* --------Work Items -------- */
-  .work-item {
+  /* .work-item {
     width: 50%;
     flex-direction: column;
     align-items: center;
@@ -208,5 +203,5 @@ a.email {
     width: 417.5px;
     height: 409px;
     padding: 0.5rem;
-  }
+  } */
 }
