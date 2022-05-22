@@ -78,4 +78,15 @@
 .things {
   color: black;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.stuff {
+  /* border: 1px solid black; */
+  padding: 2rem;
+  align-items: center;
+  display: flex;
 }
