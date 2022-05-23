@@ -70,8 +70,8 @@ const LandingPage = () => {
               <p className="tagline">I create things for the digital realms.</p>
               <p className="landing-info">
                 I'm a creative web developer with a passion for design. I
-                specialize in creating unique web based experiences to help
-                level up your brand or online presence.
+                specialize in creating unique web based experiences to amplify
+                your online presence and uplevel your brand.
               </p>
               <Link to="/services">
                 <button className="landing-button"> Learn More</button>

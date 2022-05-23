@@ -6,3 +6,32 @@
   border: 1px solid black;
   mix-blend-mode: multiply;
 }
+
+.design-container {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.gd-text-container {
+  /* border: 1px solid purple; */
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.gd-title {
+  align-items: center;
+  justify-content: center;
+}
+
+.gd-image {
+  border: 2px solid black;
+  border-radius: 70px;
+}
+
+.gd-image {
+  padding: 1rem;
+}
