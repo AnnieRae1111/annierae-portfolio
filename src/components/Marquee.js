@@ -7,7 +7,7 @@ const Marquee = () => {
         version="1.1"
         className="wavy-svg-two"
         xmlns="http://www.w3.org/2000/svg"
-        // xmlnsXlink="http://www.w3.org/1999/xlink"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
         x="0px"
         y="0px"
         viewBox="0 0 1581.73 208"
@@ -35,20 +35,26 @@ const Marquee = () => {
             id="path-text-two-letters"
           >
             <tspan id="path-span-two">
-              Web Designer - Web Designer - Web Designer - Web Designer - Web
-              Designer - Web Designer - Web Designer - Web Designer - Web
-              Designer - Web Designer - Web Designer - Web Designer - Web
-              Designer - Web Designer - Web Designer - Web Designer - Web
-              Designer - Web Designer - Web Designer - Web Designer - Web
-              Designer - Web Designer - Web Designer - Web Designer - Web
-              Designer - Web Designer -
+              Web Design and Development - Web Design and Development - Web
+              Design and Development - Web Design and Development - Web Design
+              and Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - Web Design and
+              Development - Web Design and Development - -{' '}
             </tspan>
             <animate
               attributeName="startOffset"
               from="-3200"
               to="0"
-              begin="-1s"
-              dur="70s"
+              begin="-4s"
+              dur="80s"
               repeatCount="indefinite"
             ></animate>
           </textPath>

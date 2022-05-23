@@ -16,12 +16,13 @@
   background-image: url(../assets/gradient.png),
     url(../assets/bottom-stars-01.png);
   background-repeat: no-repeat, no-repeat;
-  background-position-y: 0%, 88%;
+  background-position-y: 100%, 88%;
   background-position-x: 10%, 90%;
   opacity: 0.85;
   background-size: 100%, 30%;
   background-clip: padding-box;
   height: 100vh;
+  background-size: 70%, 20%;
 }
 
 /* sticky info */
