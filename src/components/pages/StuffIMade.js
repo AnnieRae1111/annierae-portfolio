@@ -4,7 +4,7 @@ const StuffIMade = () => {
   return (
     <div className="work-item-continer stuff">
       <h1 className="things">
-        Some Things I've Made <IoArrowForwardOutline />
+        Web Development <IoArrowForwardOutline className="arrow" />
       </h1>
     </div>
   );

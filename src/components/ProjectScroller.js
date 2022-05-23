@@ -6,7 +6,7 @@ import StuffIMade from './pages/StuffIMade';
 
 const ProjectScroller = () => {
   return (
-    <div className="slider">
+    <div className="slider container">
       <section className="section-stuff">
         <StuffIMade />
       </section>

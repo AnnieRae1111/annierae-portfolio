@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  overscroll-behavior-x: contain;
 }
 
 body {
@@ -13,31 +14,3 @@ body {
 }
 
 /* -----Scroll Section----- */
-
-.scroll-container {
-  height: 800px;
-}
-
-/* .scroller {
-  margin-top: 800px;
-  height: 900px;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  transform: scale(1.8);
-}
-.scroller section {
-  scroll-snap-align: start;
-} */
-
-.scroller {
-  display: flex;
-  margin-top: 800px;
-  height: 900px;
-  width: 800px;
-  overflow: auto;
-  white-space: nowrap;
-  transform: scale(1.8);
-}
-.scroller section {
-  display: inline-block;
-}

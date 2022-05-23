@@ -12,6 +12,7 @@ import WorkGoodKarma from './components/WorkGoodKarma';
 import WorkWar from './components/WorkWar';
 import './css/App.css';
 import ProjectScroller from './components/ProjectScroller';
+import GraphicDesign from './components/GraphicDesign';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -27,10 +28,9 @@ function App() {
             element={
               <>
                 <LandingPage />
-                <div className="marquee-section">
-                  <Marquee />
-                </div>
+                <div className="marquee-section"></div>
                 <ProjectScroller />
+                <GraphicDesign />
                 {/* <Work />
                 <WorkGoodKarma />
                 <WorkWar /> */}

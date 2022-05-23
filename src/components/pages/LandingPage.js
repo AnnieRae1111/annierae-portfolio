@@ -79,9 +79,9 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        {/* <div className="marquee-section">
+        <div className="marquee-section">
           <Marquee />
-        </div> */}
+        </div>
       </section>
     </div>
   );

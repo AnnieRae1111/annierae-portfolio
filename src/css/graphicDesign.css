@@ -1,0 +1,8 @@
+.clouds-video {
+  height: 130px;
+  width: 100%;
+  object-fit: cover;
+  /* width: 50%; */
+  border: 1px solid black;
+  mix-blend-mode: multiply;
+}
