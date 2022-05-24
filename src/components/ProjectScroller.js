@@ -6,20 +6,22 @@ import StuffIMade from './pages/StuffIMade';
 
 const ProjectScroller = () => {
   return (
-    <div className="slider container">
-      <section className="section-stuff">
-        <StuffIMade />
-      </section>
-      <section className="section">
-        <Work />
-      </section>
-      <section className="section">
-        <WorkGoodKarma />
-      </section>
-      <section className="section">
-        <WorkWar />
-      </section>
-    </div>
+    <>
+      <div className="slider container">
+        <section className="section-stuff">
+          <StuffIMade />
+        </section>
+        <section className="section">
+          <Work />
+        </section>
+        <section className="section">
+          <WorkGoodKarma />
+        </section>
+        <section className="section">
+          <WorkWar />
+        </section>
+      </div>
+    </>
   );
 };
 

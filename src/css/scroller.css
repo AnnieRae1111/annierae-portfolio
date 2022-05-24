@@ -5,20 +5,22 @@
   /* -webkit-overflow-scrolling: touch; */
   overflow-x: auto;
   overscroll-behavior-inline: contain;
+  /* border: 1px solid black;
+  margin: 2rem;
+  border-radius: 20px; */
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 .section {
   display: flex;
-  color: white;
+  /* color: white; */
   color: black;
   align-items: center;
-  /* border: 5px solid white;
-  border-radius: 70px; */
-  /* border-right: 1px solid white; */
   padding-top: 2rem;
   padding: 1rem;
   margin: 1rem;
   min-width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
 }
 
@@ -36,17 +38,21 @@
   justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 30px;
+  /* font-family: 'zephyrregular';
+  text-align: center; */
 }
 
 .stuff {
   /* border: 1px solid black; */
   padding: 2rem;
   align-items: center;
-  display: flex;
+  /* display: flex; */
 }
 
 .arrow {
   border: 1px solid black;
   border-radius: 50%;
   padding: 0.4rem;
+  font-size: 50px;
 }

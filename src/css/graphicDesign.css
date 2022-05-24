@@ -28,10 +28,16 @@
 }
 
 .gd-image {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 70px;
+  transform: scale(1.2);
+  margin: 1rem;
 }
 
-.gd-image {
-  padding: 1rem;
+.graphic-slider {
+  height: 400px;
+}
+
+section.graphic-stuff-imade {
+  width: 250px important!;
 }
