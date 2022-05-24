@@ -15,6 +15,7 @@ import ProjectScroller from './components/ProjectScroller';
 import GraphicDesign from './components/GraphicDesign';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import clouds from './assets/Clouds.mp4';
 
 function App() {
   return (
@@ -28,7 +29,16 @@ function App() {
             element={
               <>
                 <LandingPage />
-                <div className="marquee-section"></div>
+                <div className="section-break">
+                  Web Development
+                  {/* <video
+                    className="section-break-clouds"
+                    src={clouds}
+                    autoPlay
+                    loop
+                    muted
+                  /> */}
+                </div>
                 <ProjectScroller />
                 <GraphicDesign />
                 {/* <Work />
