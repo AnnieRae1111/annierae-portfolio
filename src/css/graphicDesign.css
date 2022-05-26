@@ -7,10 +7,9 @@
   mix-blend-mode: multiply;
 }
 .gd-marquee-container {
-  background-color: #988771;
+  background-color: #dafdba;
   height: 50px;
   width: 100%;
-
   min-height: initial !important;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -20,13 +19,13 @@
 }
 
 .other-gd-work {
-  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   white-space: pre !important;
   min-width: 100%;
   text-align: center;
-  /* line-height: 1em; */
+  line-height: 1em;
   animation: moveLeft 10s linear infinite;
-
   justify-content: center;
   align-items: center;
 }
@@ -39,6 +38,23 @@
   to {
     transform: translateX(-100%);
   }
+}
+
+.graphic-design-container {
+  display: flex;
+}
+
+.design-verticle {
+  /* margin-top: 100px; */
+  /* writing-mode: vertical-rl; */
+  /* transform: rotate(180deg); */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 30px;
+  font-family: 'zephyrregular';
 }
 
 .design-container {

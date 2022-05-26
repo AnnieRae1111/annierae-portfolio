@@ -18,17 +18,29 @@ const GraphicDesign = () => {
       <div className="gd-marquee-container">
         <h1 className="other-gd-work">
           {' '}
-          Other Selected Work Other Selected Work Other Selected Work Other
-          Selected Work Other Selected Work Selected Work Other Selected Work
-          Other Selected Work Other Selected Work Other Selected Work Selected
-          Work Other Selected Work Other Selected Work Other Selected Work Other
-          Selected Work{' '}
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design - Graphic & Web Design - Graphic & Web Design -
+          Graphic & Web Design -{' '}
         </h1>
       </div>
       <section className="graphic-design-container container ">
+        <div className="design-verticle">
+          <GraphicStuffIMade />
+        </div>
         <div className="slider  graphic-slider">
-          {/* <section className="section-stuff graphic-stuff-imade">
-            <GraphicStuffIMade />
+          {/* <section className="section-stuff graphic<GraphicStuffIMade />-stuff-imade">
+            
           </section> */}
           <section className="gd-section">
             <div className="gd-image-container">
