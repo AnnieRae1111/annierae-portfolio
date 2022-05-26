@@ -29,21 +29,23 @@ function App() {
             element={
               <>
                 <LandingPage />
-                <div className="section-break">
+                {/* <div className="section-break">
                   Web Development
-                  {/* <video
+                  <video
                     className="section-break-clouds"
                     src={clouds}
                     autoPlay
                     loop
                     muted
-                  /> */}
-                </div>
-                <ProjectScroller />
-                <GraphicDesign />
+                  /> *
+                </div> */}
                 {/* <Work />
                 <WorkGoodKarma />
                 <WorkWar /> */}
+                <ProjectScroller />
+                <section className="graphic-design-section">
+                  <GraphicDesign />
+                </section>
               </>
             }
           ></Route>

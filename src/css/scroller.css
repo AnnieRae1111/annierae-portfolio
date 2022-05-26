@@ -13,25 +13,23 @@
 }
 .section {
   display: flex;
-  /* color: white; */
   color: black;
   align-items: center;
   padding-top: 2rem;
   padding: 1rem;
   margin: 1rem;
   min-width: 100vw;
-  /* height: 100vh; */
   position: relative;
 }
 
 .section-stuff {
   padding: 1rem;
   margin: 1rem;
-
   position: relative;
 }
 
 .things {
+  display: flex;
   color: black;
   text-align: center;
   align-items: center;
@@ -39,15 +37,12 @@
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
-  /* font-family: 'zephyrregular';
-  text-align: center; */
+  /* width: 100vh; */
 }
 
 .stuff {
-  /* border: 1px solid black; */
   padding: 2rem;
   align-items: center;
-  /* display: flex; */
 }
 
 .arrow {

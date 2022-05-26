@@ -62,40 +62,12 @@ h1 {
   width: 60%;
 }
 
-/* img {
-  transform: scale(2);
-} */
-
-/* image scroll */
-
-/* .scroller {
-  height: 200px;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  transform: scale(1.8);
-}
-.scroller section {
-  scroll-snap-align: start;
-} */
-
-/* img {
-  width: 120px;
-} */
-
-/* .image-container {
-  height: 400px;
-  overflow: hidden;
-} */
-
 /* ------Media Queries------- */
 @media only screen and (max-width: 480px) {
-  img {
+  .image-right {
     height: 409px;
     width: 418px;
   }
-  /* h1 {
-    width: 350px;
-  } */
 
   .work-item {
     flex-direction: column;

@@ -2,9 +2,9 @@ import { IoArrowForwardOutline } from 'react-icons/io5';
 
 const StuffIMade = () => {
   return (
-    <div className="work-item-continer stuff">
+    <div className="work-item-continer stuff container">
       <h1 className="things">
-        <IoArrowForwardOutline className="arrow" />
+        Web Development <IoArrowForwardOutline className="arrow" />
       </h1>
     </div>
   );
