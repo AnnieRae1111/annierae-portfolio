@@ -36,6 +36,15 @@
   justify-content: center;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover {
+  color: grey;
+}
+
 .footer-text {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -44,4 +53,20 @@
 .magic {
   font-family: 'zephyrregular';
   font-style: italic;
+}
+
+/* ---Media Query */
+@media only screen and (max-width: 480px) {
+  .footer {
+    display: flex;
+  }
+
+  .footer-input.container {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
 }
