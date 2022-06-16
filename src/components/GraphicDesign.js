@@ -1,5 +1,5 @@
 import GraphicStuffIMade from './GraphicStuffIMade';
-import clouds from '../assets/Clouds.mp4';
+// import clouds from '../assets/Clouds.mp4';
 import '../css/graphicDesign.css';
 import rosemaryRadience from '../assets/rosemary-radience-white.png';
 import metazoa from '../assets/Metazoa-Book.png';

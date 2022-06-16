@@ -26,19 +26,3 @@ body {
 }
 
 /* -----Scroll Section----- */
-
-/* Graphic Design Section */
-.graphic-design-section {
-  height: 100vh;
-  padding-top: 100px;
-  /* background: radial-gradient(
-    circle at 50% 50%,
-    rgba(200, 164, 190, 1) 0%,
-    rgba(242, 239, 233, 1) 100%
-  ); */
-  background: linear-gradient(
-    359deg,
-    rgba(152, 135, 113, 1) 0%,
-    rgba(242, 239, 233, 1) 100%
-  );
-}

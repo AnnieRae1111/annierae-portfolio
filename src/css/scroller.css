@@ -40,14 +40,25 @@
   /* width: 100vh; */
 }
 
+.web-dev-things {
+  display: flex;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100vh;
+}
+
 .stuff {
   padding: 2rem;
   align-items: center;
 }
 
 .arrow {
-  border: 1px solid black;
-  border-radius: 50%;
   padding: 0.4rem;
   font-size: 50px;
 }

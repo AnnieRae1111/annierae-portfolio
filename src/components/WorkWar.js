@@ -37,7 +37,7 @@ const WorkWar = ({ Project1 }) => {
       <div className="image-container">
         {/* <article class="scroller">
           <section class="section"> */}
-        <img class="image-right" src={warStars} alt="" />
+        <img className="image-right" src={warStars} alt="" />
         {/* </section>
         </article> */}
       </div>

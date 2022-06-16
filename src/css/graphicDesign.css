@@ -115,3 +115,17 @@ section.graphic-stuff-imade {
 /* ::-webkit-scrollbar-thumb:hover {
   background: #957a8e;
 } */
+
+.graphic-design-section {
+  background: black;
+  margin-top: 0;
+  /* background: linear-gradient(
+    359deg,
+    rgba(152, 135, 113, 1) 0%,
+    rgba(242, 239, 233, 1) 100%
+  ); */
+}
+
+.things.gd-things {
+  color: white;
+}
