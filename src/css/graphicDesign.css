@@ -90,6 +90,7 @@ section.graphic-stuff-imade {
 .gd-section {
   margin-left: 45px;
   margin-right: 45px;
+  width: 100vh;
 }
 
 /* Slider  */
@@ -128,4 +129,30 @@ section.graphic-stuff-imade {
 
 .things.gd-things {
   color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  .gd-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid grey;
+  }
+  .gd-section {
+    /* margin-left: 5;
+    margin-right: 5px; */
+    width: 100vh;
+    padding: 0;
+    margin: 15px;
+  }
+  /* .work-item-container.stuff.gd-slider {
+  } */
+
+  .things.gd-things {
+    font-size: 65%;
+  }
+
+  .arrow.gd-arrow {
+    font-size: 35px;
+  }
 }
