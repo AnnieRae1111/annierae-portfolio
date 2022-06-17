@@ -65,8 +65,8 @@ h1 {
 /* ------Media Queries------- */
 @media only screen and (max-width: 480px) {
   .image-right {
-    height: 409px;
-    width: 418px;
+    height: 309px;
+    width: 318px;
   }
 
   .work-item {
