@@ -147,6 +147,10 @@ section.graphic-stuff-imade {
     border-radius: 10px;
     border: 1px solid grey;
   }
+
+  .infoCard {
+    width: 200px;
+  }
   .gd-section {
     /* margin-left: 5;
     margin-right: 5px; */
