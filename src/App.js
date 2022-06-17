@@ -54,7 +54,7 @@ function App() {
           ></Route>
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/portfolio" element={<ProjectScroller />} />
           <Route path="/inquire" element={<Inquire />} />
         </Routes>
       </main>

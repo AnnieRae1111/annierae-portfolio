@@ -4,7 +4,7 @@ import { AiOutlineMail, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 const Footer = () => {
   return (
     <footer>
-      <div className="footer container">
+      <div className="footer">
         <div className="footer-input container">
           Get In Touch :
           <p className="footer-text">

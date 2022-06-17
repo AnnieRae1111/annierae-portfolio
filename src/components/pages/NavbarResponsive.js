@@ -40,7 +40,7 @@ const NavbarResponsive = () => {
                 Portfolio
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink className="navlink" href="/services">
                 Services
               </NavLink>
@@ -49,7 +49,7 @@ const NavbarResponsive = () => {
               <NavLink className="navlink" href="/inquire">
                 Inquire
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <a href={Resume} download>
               {' '}
               <Button className="nav-button">Resume</Button>

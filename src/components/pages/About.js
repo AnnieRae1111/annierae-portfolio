@@ -26,7 +26,8 @@ const About = () => {
               <li className="skills-items">CSS</li>
               <li className="skills-items">JavaScript</li>
               <li className="skills-items">React</li>
-              <li className="skills-items">UX</li>
+              <li className="skills-items">UX/UI </li>
+              <li className="skills-items">Graphic Design</li>
             </ul>
           </div>
           <div className="backend">
