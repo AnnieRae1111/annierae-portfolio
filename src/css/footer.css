@@ -43,6 +43,7 @@
 
 .footer-link:hover {
   color: grey;
+  cursor: pointer;
 }
 
 .footer-text {

@@ -39,6 +39,7 @@ a.email {
 .email:hover {
   /* color: red; */
   cursor: pointer;
+  color: #dafdba;
 }
 
 .email-span {

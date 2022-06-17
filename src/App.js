@@ -42,6 +42,9 @@ function App() {
                 {/* <Work />
                 <WorkGoodKarma />
                 <WorkWar /> */}
+                <section className="skills-section">
+                  <About />
+                </section>
                 <ProjectScroller />
                 <section className="graphic-design-section">
                   <GraphicDesign />
