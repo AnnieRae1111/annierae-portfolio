@@ -71,7 +71,7 @@ const LandingPage = () => {
                 I'm a creative web developer with a passion for design and the
                 user experience. I am excited about creating optimized,
                 effecient and unique web-based experiences that provide
-                solutionsto amplify your online presence.
+                solutions to amplify your online presence.
               </p>
               {/* <IoMdArrowDown className="scroll-down" /> */}
               {/* <Link to="/services">
