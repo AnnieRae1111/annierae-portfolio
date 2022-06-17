@@ -1,6 +1,6 @@
 import '../../css/LandingPage.css';
 import Marquee from '../Marquee';
-import { IoMdArrowDown } from 'react-icons/io';
+// import { IoMdArrowDown } from 'react-icons/io';
 const LandingPage = () => {
   return (
     <div className="landing-main-container">
@@ -73,7 +73,7 @@ const LandingPage = () => {
                 effecient and unique web-based experiences that provide
                 solutionsto amplify your online presence.
               </p>
-              <IoMdArrowDown className="scroll-down" />
+              {/* <IoMdArrowDown className="scroll-down" /> */}
               {/* <Link to="/services">
                 <button className="landing-button"> Learn More</button>
               </Link> */}
