@@ -11,7 +11,14 @@
 .nav-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
-  color: black;
+  color: black !important;
+}
+
+.nav-button:hover {
+  color: grey !important;
+}
+.navlink:hover {
+  color: grey !important;
 }
 
 .nav-button {
