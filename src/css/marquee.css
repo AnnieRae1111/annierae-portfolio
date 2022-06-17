@@ -50,4 +50,8 @@ svg.wavy-svg-two {
   .my-name-is {
     font-size: 15px;
   }
+
+  svg.wavy-svg-two {
+    margin-top: 18px;
+  }
 }
