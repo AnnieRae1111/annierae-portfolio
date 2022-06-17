@@ -3,7 +3,20 @@ import '../../css/about.css';
 const About = () => {
   return (
     <>
-      <h1 className="about-header text-center"> Skills</h1>
+      <h1 className="about-header text-center container"> Skills</h1>
+      <h4 className="about-text container">
+        {' '}
+        Detail-oriented Full Stack Software Engineer with a passion for frontend
+        design and the user experience. Motivated self-starter excited about
+        creating responsive and efficient web-based experiences. Skilled in
+        creative problem solving while collaborating and communicating with
+        compassion and empathy. A strong believer in the importance of learning
+        and forever having a growth mindset. Patient problem solver with the
+        ability to multi-task and deliver in high pressure, chaotic
+        environments. A professional background in artist management, graphic
+        design and social media marketing, developing grit, flexibility and a
+        dedicated work ethic.{' '}
+      </h4>
       <div className="about-section">
         <div className="section-divider">
           <div className="frontend">
