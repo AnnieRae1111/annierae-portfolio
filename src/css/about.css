@@ -46,27 +46,34 @@
 }
 
 .skills-items {
-  align-items: center;
-  /* justify-content: center; */
+  display: flex;
   font-size: 18px;
-  font-family: 'zephyrregular';
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'zephyrregular'; */
+  list-style: none;
+  width: 118px;
 }
 
 .front-title,
 .back-title {
   justify-content: center;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'zephyrregular';
   font-size: 25px;
   margin: 1rem;
+  margin-top: 0;
 }
 
 .front-end-list,
 .back-end-list {
   display: flex;
-  flex-direction: column;
-  width: 80%;
-  height: 30%;
+  flex-direction: row;
+  /* width: 80%;
+  height: 30%; */
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* padding: 1rem; */
 }
 
 .about-text {
