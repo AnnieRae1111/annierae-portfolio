@@ -53,5 +53,6 @@ svg.wavy-svg-two {
 
   svg.wavy-svg-two {
     margin-top: 18px;
+    transform: rotate(-13deg);
   }
 }

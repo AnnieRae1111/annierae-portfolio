@@ -74,9 +74,9 @@ const LandingPage = () => {
                 solutions to amplify your online presence.
               </p>
               {/* <IoMdArrowDown className="scroll-down" /> */}
-              {/* <Link to="/services">
-                <button className="landing-button"> Learn More</button>
-              </Link> */}
+              <a href="mailto:annierae.elizabeth@gmail.com">
+                <button className="landing-button"> Get In Touch</button>
+              </a>
             </div>
           </div>
         </div>
