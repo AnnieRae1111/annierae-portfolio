@@ -68,14 +68,17 @@
 }
 
 .gd-image {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   /* margin: 1rem; */
-  border-radius: 70px;
+  border-radius: 20px;
   border: 1px solid black;
   filter: grayscale(100%);
 }
 
 .gd-image:hover {
+  filter: grayscale(0%);
+}
+.infoCard:hover {
   filter: grayscale(0%);
 }
 
@@ -88,8 +91,8 @@ section.graphic-stuff-imade {
 }
 
 .gd-section {
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
   width: 100vh;
 }
 
@@ -131,10 +134,16 @@ section.graphic-stuff-imade {
   color: white;
 }
 
+.infoCard {
+  width: 400px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
 @media only screen and (max-width: 480px) {
   .gd-image {
     height: 120px;
-    width: 120px;
+    width: 150px;
     border-radius: 10px;
     border: 1px solid grey;
   }

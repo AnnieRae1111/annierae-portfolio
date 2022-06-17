@@ -3,7 +3,7 @@ import '../../css/about.css';
 const About = () => {
   return (
     <>
-      <h1 className="about-header text-center container"> Skills</h1>
+      <h1 className="about-header text-center container">More About Me :</h1>
       <h4 className="about-text container">
         {' '}
         Detail-oriented Full Stack Software Engineer with a passion for frontend

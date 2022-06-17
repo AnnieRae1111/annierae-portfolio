@@ -31,15 +31,25 @@
   margin: 2rem;
   border-radius: 10px;
   height: 250px;
-  width: 80%;
+  width: 35%;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+}
+
+.frontend:hover {
+  background-color: #f2efe9;
+  color: black;
+}
+.backend:hover {
+  background-color: #f2efe9;
+  color: black;
 }
 
 .skills-items {
   align-items: center;
   /* justify-content: center; */
   font-size: 20px;
+  font-family: 'zephyrregular';
 }
 
 .front-title,
@@ -63,4 +73,29 @@
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .about-text {
+    font-size: 18px;
+  }
+  .frontend,
+  .backend {
+    width: 80%;
+  }
+  .section-divider {
+    flex-direction: column;
+  }
+  .front-end-list,
+  .back-end-list {
+    width: 110%;
+  }
+  .front-title,
+  .back-title {
+    font-size: 20px;
+  }
+
+  .skills-items {
+    font-size: 18px;
+  }
 }

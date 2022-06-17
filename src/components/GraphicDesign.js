@@ -5,6 +5,9 @@ import rosemaryRadience from '../assets/rosemary-radience-white.png';
 import metazoa from '../assets/Metazoa-Book.png';
 import marthabizcard from '../assets/martha-biz-card.png';
 import dharmaDesigns from '../assets/dharma_designs.jpg';
+import nedBizCard from '../assets/NedBizCard.png';
+import AMA from '../assets/AmaFlyer.png';
+import infoCard from '../assets/AJInfoCard.png';
 
 const GraphicDesign = () => {
   return (
@@ -61,6 +64,21 @@ const GraphicDesign = () => {
           <section className="gd-section">
             <div className="gd-image-container">
               <img className="gd-image" src={metazoa} alt="" />
+            </div>
+          </section>
+          <section className="gd-section">
+            <div className="gd-image-container">
+              <img className="gd-image" src={nedBizCard} alt="" />
+            </div>
+          </section>
+          <section className="gd-section">
+            <div className="gd-image-container">
+              <img className="gd-image" src={AMA} alt="" />
+            </div>
+          </section>
+          <section className="gd-section">
+            <div className="gd-image-container">
+              <img className="infoCard" src={infoCard} alt="" />
             </div>
           </section>
         </div>
