@@ -9,9 +9,9 @@
 .path-bg {
   fill: transparent !important;
   /* fill: #dafdba !important; */
-  padding: 0;
-  /* stroke: black; */
-  stroke-width: 2px;
+
+  /* stroke: black;
+  stroke-width: 2px; */
 }
 
 #path-span-two {
