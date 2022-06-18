@@ -145,7 +145,7 @@ a.email {
   }
 
   .stars {
-    transform: scale(0.5);
+    transform: scale(0.4);
   }
 
   .heading {
@@ -190,7 +190,9 @@ a.email {
 
   .landing-main-container {
     height: 780px;
-    background-image: url(../assets/gradient.png);
+    /* background-image: url(../assets/gradient.png); */
+    /* background-image: url(../assets/bottom-stars-01.png); */
+    background-image: none;
     background-repeat: no-repeat, no-repeat;
     background-position-y: 8%;
     background-position-x: 15%;
