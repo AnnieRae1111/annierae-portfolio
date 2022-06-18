@@ -67,12 +67,12 @@
 .front-end-list,
 .back-end-list {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   /* width: 80%;
   height: 30%; */
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   /* padding: 1rem; */
 }
 

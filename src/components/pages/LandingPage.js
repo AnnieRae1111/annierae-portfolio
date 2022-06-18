@@ -65,7 +65,7 @@ const LandingPage = () => {
           <div className="heading-container">
             <div className="text-container">
               <p className="my-name-is"> Hi, my name is</p>
-              <h2 className="heading">AnnieRae</h2>
+              <h2 className="line-1 anim-typewriter heading">AnnieRae</h2>
               <p className="tagline">I create things for the digital realms.</p>
               <p className="landing-info">
                 I'm a creative web developer with a passion for design and the

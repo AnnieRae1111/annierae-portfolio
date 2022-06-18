@@ -38,10 +38,10 @@ svg.wavy-svg-two {
 
 /* ----Media Queries------ */
 @media only screen and (max-width: 480px) {
-  /* .path-bg {
+  .path-bg {
     fill: #dafdba !important;
-    fill: black !important;
-  } */
+    /* fill: black !important; */
+  }
 
   #path-span-two {
     font-size: 50px !important;
@@ -53,6 +53,7 @@ svg.wavy-svg-two {
 
   svg.wavy-svg-two {
     margin-top: 18px;
-    transform: rotate(-13deg);
+    transform: scale(1.5) rotate(-18deg);
+    font-size: 30px;
   }
 }
