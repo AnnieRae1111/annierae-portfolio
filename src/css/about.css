@@ -15,7 +15,9 @@
 
 .frontend,
 .backend {
-  border: 1px solid white;
+  background-color: #f2efe9;
+  color: black;
+  /* border: 1px solid white; */
   width: 50%;
   display: flex;
   align-items: center;
@@ -30,12 +32,14 @@
 }
 
 .frontend:hover {
-  background-color: #f2efe9;
-  color: black;
+  color: #f2efe9;
+  background-color: black;
+  border: 1px solid #f2efe9;
 }
 .backend:hover {
-  background-color: #f2efe9;
-  color: black;
+  color: #f2efe9;
+  background-color: black;
+  border: 1px solid #f2efe9;
 }
 
 .skills-items {
