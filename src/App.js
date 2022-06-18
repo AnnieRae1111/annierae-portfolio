@@ -16,7 +16,7 @@ import GraphicDesign from './components/GraphicDesign';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import clouds from './assets/Clouds.mp4';
-
+import AboutTwo from './components/pages/About2';
 function App() {
   return (
     <div className="app-container">

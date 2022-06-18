@@ -1,7 +1,8 @@
+// import '../../css/about2.css';
 import '../../css/about.css';
-const About = () => {
+const AboutTwo = () => {
   return (
-    <>
+    <div className="about-container">
       <h1 className="about-header text-center container">More About Me :</h1>
       <h4 className="about-text container">
         {' '}
@@ -18,7 +19,7 @@ const About = () => {
       </h4>
       <div className="about-section">
         <div className="section-divider">
-          <div className="frontend">
+          <div className="frontend-about">
             <h2 className="front-title">Frontend Development </h2>
             <ul className="front-end-list">
               <li className="skills-items">HTML</li>
@@ -42,8 +43,8 @@ const About = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default About;
+export default AboutTwo;
