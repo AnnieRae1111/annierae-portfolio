@@ -146,11 +146,20 @@ section.graphic-stuff-imade {
     width: 235px;
     border-radius: 10px;
     border: 1px solid grey;
+    filter: grayscale(0);
+  }
+
+  .gd-image:hover {
+    filter: grayscale(100%);
+  }
+  .infoCard:hover {
+    filter: grayscale(100%);
   }
 
   .infoCard {
     width: 250px;
     height: 200px;
+    filter: grayscale(0);
   }
   .gd-section {
     /* margin-left: 5;
