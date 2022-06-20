@@ -51,6 +51,8 @@ const AboutTwo = () => {
             <ul className="front-end-list-two">
               <li className="skills-items-two">HTML</li>
               <li className="skills-items-two">CSS</li>
+              <li className="skills-items-two">Bootstrap</li>
+              <li className="skills-items-two">Tailwind CSS</li>
               <li className="skills-items-two">JavaScript</li>
               <li className="skills-items-two">React</li>
               <li className="skills-items-two">UX/UI </li>

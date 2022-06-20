@@ -21,12 +21,14 @@ const About = () => {
           <div className="frontend">
             <h2 className="front-title">Frontend Development </h2>
             <ul className="front-end-list">
-              <li className="skills-items">HTML</li>
-              <li className="skills-items">CSS</li>
-              <li className="skills-items">JavaScript</li>
-              <li className="skills-items">React</li>
-              <li className="skills-items">UX/UI </li>
-              <li className="skills-items">Graphic Design</li>
+              <li className="skills-items-two">HTML</li>
+              <li className="skills-items-two">CSS</li>
+              <li className="skills-items-two">Bootstrap</li>
+              <li className="skills-items-two">Tailwind CSS</li>
+              <li className="skills-items-two">JavaScript</li>
+              <li className="skills-items-two">React</li>
+              <li className="skills-items-two">UX/UI </li>
+              <li className="skills-items-two">Graphic Design</li>
             </ul>
           </div>
           <div className="backend">
