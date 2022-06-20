@@ -147,9 +147,6 @@ a.email {
   .star-container {
     display: none;
   }
-  .stars {
-    transform: scale(0.4);
-  }
 
   .heading {
     font-size: 80px;

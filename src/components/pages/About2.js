@@ -4,9 +4,9 @@ import me from '../../assets/annierae-profile-photo.jpeg';
 const AboutTwo = () => {
   return (
     <>
-      <h1 className="about-header-two text-center container">
+      {/* <h1 className="about-header-two text-center container">
         More About Me :
-      </h1>{' '}
+      </h1>{' '} */}
       <div className="about-two-container container">
         <div className="about-image-container">
           <img className="about-two-image" src={me} alt="" />
@@ -14,18 +14,30 @@ const AboutTwo = () => {
         <div className="about-text-two">
           <div className="text-container-2">
             <h4 className="about-two-h4">
-              Detail-oriented Full Stack Software Engineer with a passion for
-              frontend design and the user experience. Motivated self-starter
-              excited about creating responsive and efficient web-based
-              experiences. Skilled in creative problem solving while
-              collaborating and communicating with compassion and empathy. A
-              strong believer in the importance of learning and forever having a
-              growth mindset. Patient problem solver with the ability to
-              multi-task and deliver in high pressure, chaotic environments. A
-              professional background in artist management, graphic design and
-              social media marketing, developing grit, flexibility and a
-              dedicated work ethic.
-            </h4>{' '}
+              <span className="hello-world">Hello World,</span>
+              <br />
+              I'm a detail-oriented Full Stack Software Engineer with a passion
+              for frontend design and the user experience. I'm excited about
+              creating responsive and efficient web-based experiences that help
+              level up your brand and online presence. With a background in
+              artist mangagement, e-commerce and social media marketing, my
+              speciality is creating stunning web based experiences that are
+              intentional, functional and profitable.
+              <h4>
+                I have a bachelors degree in business with a minor in marketing
+                and a full stack software engineer bootcamp certification.
+                Before launching my design studio in 2022, I previously worked
+                for world renowned digital artist and creator Android Jones
+                where I developed a strong understanding of and keen eye for
+                design principles and best practices.
+              </h4>
+              <h4>
+                I currently live in Boulder, CO where I spend the majority of my
+                time. When I’m not designing or developing you can find me
+                traveling , exploring the outdoors, practicing yoga, reading or
+                enjoying live music.
+              </h4>
+            </h4>
           </div>
         </div>
       </div>

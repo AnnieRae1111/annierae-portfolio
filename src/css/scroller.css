@@ -7,17 +7,6 @@
   overscroll-behavior-inline: contain;
   padding: 1rem;
 }
-/* body::-webkit-scrollbar {
-  background-color: olivedrab;
-  border: 2px solid white;
-  border-radius: 10px;
-} */
-
-.graphic-design-section::-webkit-scrollbar {
-  background-color: olivedrab;
-  border: 2px solid white;
-  border-radius: 10px;
-}
 
 .section {
   display: flex;

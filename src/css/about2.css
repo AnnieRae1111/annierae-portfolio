@@ -6,10 +6,6 @@
   background-color: black;
 }
 
-/* .about-header-two {
-  font-size: 20px;
-} */
-
 .section-divider {
   display: flex;
   flex-direction: row;
@@ -64,6 +60,11 @@
 .about-text-two h4 {
   font-size: 20px;
   padding: 1rem;
+}
+
+.hello-world {
+  font-family: 'zephyrregular';
+  font-size: 40px;
 }
 
 .frontend-two,
@@ -172,5 +173,9 @@ ul {
 
   .about-header-two {
     margin-bottom: 0;
+  }
+
+  .hello-world {
+    font-size: 30px;
   }
 }
