@@ -12,7 +12,7 @@ const AboutTwo = () => {
           <img className="about-two-image" src={me} alt="" />
         </div>
         <div className="about-text-two">
-          <div className="text-container-two">
+          <div className="text-container-2">
             <h4 className="about-two-h4">
               Detail-oriented Full Stack Software Engineer with a passion for
               frontend design and the user experience. Motivated self-starter
