@@ -53,7 +53,17 @@ function App() {
           ></Route>
           <Route path="/about" element={<AboutTwo />} />
           {/* <Route path="/services" element={<Services />} /> */}
-          <Route path="/portfolio" element={<ProjectScroller />} />
+          <Route
+            path="/portfolio"
+            element={
+              <>
+                <ProjectScroller />
+                <section className="gd-portfolio">
+                  <GraphicDesign />
+                </section>
+              </>
+            }
+          />
           {/* <Route path="/inquire" element={<Inquire />} /> */}
         </Routes>
       </main>
