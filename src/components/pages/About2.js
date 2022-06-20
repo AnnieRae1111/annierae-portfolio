@@ -13,7 +13,8 @@ const AboutTwo = () => {
         </div>
         <div className="about-text-two">
           <div className="text-container-2">
-            <h4 className="about-two-h4">
+            <span className="hello-world-desktop">Hello World,</span>
+            <p className="about-two-h4">
               <span className="hello-world">Hello World,</span>
               <br />
               I'm a detail-oriented Full Stack Software Engineer with a passion
@@ -23,21 +24,23 @@ const AboutTwo = () => {
               artist mangagement, e-commerce and social media marketing, my
               speciality is creating stunning web based experiences that are
               intentional, functional and profitable.
-              <h4>
-                I have a bachelors degree in business with a minor in marketing
-                and a full stack software engineer bootcamp certification.
-                Before launching my design studio in 2022, I previously worked
-                for world renowned digital artist and creator Android Jones
-                where I developed a strong understanding of and keen eye for
-                design principles and best practices.
-              </h4>
-              <h4>
-                I currently live in Boulder, CO where I spend the majority of my
-                time. When I’m not designing or developing you can find me
-                traveling , exploring the outdoors, practicing yoga, reading or
-                enjoying live music.
-              </h4>
-            </h4>
+              <br />
+              <br />
+              {/* <p className="about-two-h4"> */}I have a bachelors degree in
+              business with a minor in marketing and a full stack software
+              engineer bootcamp certification. Before launching my design studio
+              in 2022, I previously worked for world renowned digital artist and
+              creator Android Jones where I developed a strong understanding of
+              and keen eye for design principles and best practices.
+              {/* </p> */}
+              {/* <p className="about-two-h4"> */}
+              <br />
+              <br />I currently live in Boulder, CO where I spend the majority
+              of my time. When I’m not designing or developing you can find me
+              traveling , exploring the outdoors, practicing yoga, reading or
+              enjoying live music.
+              {/* </p> */}
+            </p>
           </div>
         </div>
       </div>

@@ -57,14 +57,21 @@
   border-radius: 20px;
 }
 
-.about-text-two h4 {
+.about-text-two p {
   font-size: 20px;
-  padding: 1rem;
+  padding: 0 10px 10px 10px;
+  text-align: left;
+}
+
+span.hello-world-desktop {
+  font-family: 'zephyrregular';
+  font-size: 40px;
+  width: 100vh;
+  text-align: center !important;
 }
 
 .hello-world {
-  font-family: 'zephyrregular';
-  font-size: 40px;
+  display: none;
 }
 
 .frontend-two,
@@ -163,12 +170,14 @@ ul {
   }
 
   .text-container-2 {
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
+    flex-direction: column;
     /* width: 100vh; */
   }
   .about-two-h4 {
-    font-size: 18px;
+    font-size: 15px;
+    text-align: left;
   }
 
   .about-header-two {
@@ -177,5 +186,12 @@ ul {
 
   .hello-world {
     font-size: 30px;
+    text-align: center;
+    display: contents;
+    font-family: 'zephyrregular';
+    font-size: 40px;
+  }
+  span.hello-world-desktop {
+    display: none;
   }
 }
