@@ -48,7 +48,6 @@ svg.wavy-svg-two {
 
   #path-span-two {
     font-size: 50px !important;
-    margin-bottom: 100px;
   }
 
   .my-name-is {
@@ -56,7 +55,7 @@ svg.wavy-svg-two {
   }
 
   svg.wavy-svg-two {
-    margin-top: 18px;
+    /* margin-top: 18px; */
     transform: scale(1.5) rotate(-18deg);
     font-size: 30px;
   }

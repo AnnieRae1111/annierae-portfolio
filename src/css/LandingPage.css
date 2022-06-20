@@ -144,6 +144,9 @@ a.email {
     display: none;
   }
 
+  .star-container {
+    display: none;
+  }
   .stars {
     transform: scale(0.4);
   }

@@ -62,24 +62,25 @@ const LandingPage = () => {
               </g>
             </g>
           </svg>
-          <div className="heading-container">
-            <div className="text-container">
-              <p className="my-name-is"> Hi, my name is</p>
-              <h2 className="line-1 anim-typewriter heading">AnnieRae</h2>
-              <p className="tagline">I create things for the digital realms.</p>
-              <p className="landing-info">
-                I'm a creative web developer with a passion for design and the
-                user experience. I am excited about creating optimized,
-                effecient and unique web-based experiences that provide
-                solutions to amplify your online presence.
-              </p>
-              {/* <IoMdArrowDown className="scroll-down" /> */}
-              <a href="mailto:annierae.elizabeth@gmail.com">
-                <button className="landing-button"> Get In Touch</button>
-              </a>
-            </div>
+        </div>
+        <div className="heading-container">
+          <div className="text-container">
+            <p className="my-name-is"> Hi, my name is</p>
+            <h2 className="line-1 anim-typewriter heading">AnnieRae</h2>
+            <p className="tagline">I create things for the digital realms.</p>
+            <p className="landing-info">
+              I'm a creative web developer with a passion for design and the
+              user experience. I am excited about creating optimized, effecient
+              and unique web-based experiences that provide solutions to amplify
+              your online presence.
+            </p>
+            {/* <IoMdArrowDown className="scroll-down" /> */}
+            <a href="mailto:annierae.elizabeth@gmail.com">
+              <button className="landing-button"> Get In Touch</button>
+            </a>
           </div>
         </div>
+
         <div className="marquee-section">
           <Marquee />
         </div>
