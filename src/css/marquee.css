@@ -1,6 +1,7 @@
 .style {
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 15px, 0);
 }
+/* centers text within the wavy fill */
 
 .path-text {
   fill: none;
