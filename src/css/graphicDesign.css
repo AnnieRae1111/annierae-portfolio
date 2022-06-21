@@ -18,6 +18,19 @@
   padding-bottom: 1em;
 }
 
+/* .gd-marquee-container {
+  animation: pulse 7s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #04c4d9;
+  }
+  100% {
+    background-color: #b2e881;
+  }
+} */
+
 .other-gd-work {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
@@ -25,7 +38,7 @@
   min-width: 100%;
   text-align: center;
   line-height: 1em;
-  animation: moveLeft 10s linear infinite;
+  animation: moveLeft 15s linear infinite;
   justify-content: center;
   align-items: center;
 }

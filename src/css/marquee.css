@@ -43,6 +43,20 @@ svg.wavy-svg-two {
     fill: #dafdba !important;
   }
 
+  /* .path-bg {
+    animation: pulse 7s infinite;
+  } */
+
+  /* @keyframes pulse {
+    0% {
+      
+      fill: #04c4d9 !important;
+    }
+    100% {
+      fill: #b2e881 !important;
+    }
+  } */
+
   #path-span-two {
     font-size: 50px !important;
   }
