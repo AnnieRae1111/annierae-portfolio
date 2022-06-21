@@ -130,10 +130,11 @@ a.email {
   color: black;
   font-family: 'Roboto', sans-serif;
   border: 1px solid black;
+  box-shadow: 5px 10px 10px #b2e881;
 }
 
 .landing-button:hover {
-  box-shadow: 5px 10px 10px #b2e881;
+  box-shadow: 5px 10px 10px #04c4d9;
   cursor: pointer;
 }
 

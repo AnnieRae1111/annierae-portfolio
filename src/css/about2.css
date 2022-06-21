@@ -27,14 +27,12 @@
   justify-content: center;
   width: 50%;
   margin: 1rem;
-  /* border: 1px solid red; */
   padding: 1rem;
 }
 
 .about-two-image {
   width: 70%;
   border-radius: 40px;
-  /* border-radius: 500px 500px 0 0; */
   filter: grayscale(100%);
   border: 1px solid black;
 }
