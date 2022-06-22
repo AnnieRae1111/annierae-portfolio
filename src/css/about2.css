@@ -32,9 +32,11 @@
 
 .about-two-image {
   width: 70%;
-  border-radius: 40px;
+  /* border-radius: 40px; */
+  border-radius: 1000px 1000px 0 0;
   filter: grayscale(100%);
   border: 1px solid black;
+  padding: 0.5rem;
 }
 
 .about-two-image:hover {
@@ -181,12 +183,14 @@ ul {
     margin-bottom: 0;
   }
 
-  .hello-world {
+  span.hello-world {
     font-size: 30px;
     text-align: center;
     display: contents;
     font-family: 'zephyrregular';
     font-size: 40px;
+    align-items: center;
+    justify-content: center;
   }
   span.hello-world-desktop {
     display: none;

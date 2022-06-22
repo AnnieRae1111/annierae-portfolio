@@ -1,6 +1,7 @@
 import '../../css/about2.css';
 import '../../css/about.css';
 import me from '../../assets/annierae-profile-photo.jpeg';
+import me2 from '../../assets/profilephoto.png';
 const AboutTwo = () => {
   return (
     <>
@@ -9,13 +10,14 @@ const AboutTwo = () => {
       </h1>{' '} */}
       <div className="about-two-container container">
         <div className="about-image-container">
-          <img className="about-two-image" src={me} alt="" />
+          <img className="about-two-image" src={me2} alt="" />
         </div>
         <div className="about-text-two">
           <div className="text-container-2">
-            <span className="hello-world-desktop">Hello World,</span>
+            <span className="hello-world-desktop">Hi there,</span>
+            <span className="hello-world">Hi there,</span>
             <p className="about-two-h4">
-              <span className="hello-world">Hello World,</span>
+              {/* <span className="hello-world">Hello World,</span> */}
               <br />
               I'm a detail-oriented Full Stack Software Engineer with a passion
               for frontend design and the user experience. I'm excited about
