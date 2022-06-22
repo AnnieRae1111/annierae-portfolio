@@ -146,6 +146,10 @@ a.email {
     display: none;
   }
 
+  /* .email,
+  .email-span {
+    font-size: 12px;
+  } */
   .star-container {
     display: none;
   }
@@ -159,16 +163,16 @@ a.email {
   }
 
   .landing-info {
-    font-size: 15px;
+    font-size: 18px;
     width: 100%;
   }
 
   .heading-container {
-    padding: 0;
+    /* padding: 0; */
     /* width: 80%; */
     margin: 0 auto;
     top: 0;
-    padding: 1.5rem;
+    padding: 2rem;
   }
 
   .my-name-is {
