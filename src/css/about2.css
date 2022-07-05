@@ -1,5 +1,7 @@
 .body {
   overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
 }
 
 .about-container-two {
