@@ -3,13 +3,13 @@
 * {
   box-sizing: border-box;
   overscroll-behavior-x: contain;
-  overflow: hidden;
 }
 
+html,
 body {
   margin: 0;
+  /* overflow: hidden; */
   overflow-x: hidden !important;
-  overflow: hidden;
   /* position: relative; */
   height: 100%;
   width: 100%;
@@ -42,9 +42,6 @@ body {
 }
 /* -----Scroll Section----- */
 
-@media only screen and (max-width: 480px) {
-  body {
-    overflow-x: hidden;
-    position: relative;
-  }
-}
+/* @media only screen and (max-width: 480px) {
+  
+} */
