@@ -91,7 +91,8 @@ ul {
   }
   .front-end-list,
   .back-end-list {
-    width: 110%;
+    /* width: 110%; */
+    width: 100%;
     justify-content: center;
     text-align: center;
   }
