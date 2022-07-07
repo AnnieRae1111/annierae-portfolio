@@ -33,8 +33,8 @@
 }
 
 svg.wavy-svg-two {
-  transform: scale(1.25) rotate(-15deg);
-  margin-bottom: 250px;
+  transform: scale(1.25) rotate(-6deg);
+  /* margin-bottom: 250px; */
 }
 
 /* ----Media Queries------ */
