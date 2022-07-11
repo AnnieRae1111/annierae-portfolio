@@ -155,7 +155,8 @@ a.email {
   }
 
   .heading {
-    font-size: 80px;
+    font-size: 75px;
+    text-align: center;
   }
 
   .tagline {
