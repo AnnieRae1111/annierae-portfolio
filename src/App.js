@@ -16,6 +16,8 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import clouds from './assets/Clouds.mp4';
 import AboutTwo from './components/pages/About2';
+import Clouds from './components/CloudsComponent';
+
 function App() {
   return (
     <div className="app-container">
@@ -67,6 +69,7 @@ function App() {
           {/* <Route path="/inquire" element={<Inquire />} /> */}
         </Routes>
       </main>
+      <Clouds />
       <Footer />
     </div>
   );
