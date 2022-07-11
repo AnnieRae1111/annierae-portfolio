@@ -20,13 +20,13 @@ const NavbarResponsive = () => {
     <div className="navbar-container justify-content-end">
       <Navbar className="flexend" color="faded" expand="md" light>
         <NavbarToggler
-          className="me-2 end"
+          className="me-2 start toggler"
           onClick={() => setIsOpen(!isOpen)}
         />
-        <Collapse isOpen={isOpen} navbar>
+        <Collapse className="collapse" isOpen={isOpen} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink className="navlink mr-auto" href="/">
+              <NavLink className="navlink " href="/">
                 Home
               </NavLink>
             </NavItem>

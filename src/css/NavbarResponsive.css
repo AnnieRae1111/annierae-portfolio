@@ -1,11 +1,12 @@
 .navbar-container {
   display: flex;
   padding: 1rem;
+  justify-content: flex-start !important;
 }
 
-.navbar.flexend {
+/* .navbar.flexend {
   justify-content: flex-end;
-}
+} */
 
 .navlink,
 .nav-button {
@@ -26,4 +27,16 @@
   /* background-color: #b2e881 !important; */
   color: black !important;
   margin-left: 5px;
+}
+.justify-content-end {
+  justify-content: flex-start !important;
+}
+
+.collapse {
+  display: flex;
+}
+@media only screen and (max-width: 480px) {
+  .nav-button {
+    margin-left: 0px;
+  }
 }

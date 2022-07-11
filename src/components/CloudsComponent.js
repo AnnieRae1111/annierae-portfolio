@@ -15,7 +15,26 @@ const Clouds = () => {
           <span className="alan-watts">-Alan Watts</span>
         </div>
       </div>
-      <video className="clouds-video" src={clouds} autoPlay loop muted />
+      {/* <video className="clouds-video" src={clouds} autoPlay loop muted /> */}
+      <video
+        autoPlay={true}
+        loop={true}
+        muted={true}
+        playsInline={true}
+        className="clouds-video"
+      >
+        <source src={clouds} type="video/mp4" />
+      </video>
+      {/* <div className="clouds-video">
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `<video className="app__backgroundVideo" autoplay loop muted playsinline>
+      <source src=${clouds} type="video/mp4" />
+      Your browser does not support the video tag.
+</video>`,
+          }}
+        />
+      </div> */}
     </div>
   );
 };
