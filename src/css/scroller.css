@@ -60,3 +60,10 @@
   padding: 0.4rem;
   font-size: 50px;
 }
+
+.this-way {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  white-space: no-wrap;
+  width: 80px;
+}

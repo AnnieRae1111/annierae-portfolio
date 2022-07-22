@@ -4,7 +4,9 @@ const StuffIMade = () => {
   return (
     <div className="work-item-continer stuff container">
       <h1 className="web-dev-things ">
-        Web Development <IoArrowForwardOutline className="arrow" />
+        Web Development <br />
+        {/* <span className="this-way">this way</span> */}
+        <IoArrowForwardOutline className="arrow" />
       </h1>
     </div>
   );

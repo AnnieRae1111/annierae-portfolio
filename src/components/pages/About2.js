@@ -19,7 +19,7 @@ const AboutTwo = () => {
             <p className="about-two-h4">
               {/* <span className="hello-world">Hello World,</span> */}
               <br />
-              I'm a detail-oriented Full Stack Software Engineer with a passion
+              I'm a detail-oriented full stack software engineer with a passion
               for frontend design and the user experience. I'm excited about
               creating responsive and efficient web-based experiences that help
               level up your brand and online presence. With a background in
