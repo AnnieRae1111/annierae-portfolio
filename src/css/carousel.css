@@ -1,6 +1,11 @@
-.slider {
+.web-dev {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slider-carousel {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +14,7 @@
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: 32px;
+  right: 52px;
   font-size: 3rem;
   color: black;
   z-index: 10;
@@ -20,10 +25,43 @@
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 32px;
+  left: 52px;
   font-size: 3rem;
   color: black;
   z-index: 10;
   cursor: pointer;
   user-select: none;
+}
+
+/* .slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+} */
+
+.work-item {
+  /* border: 2px solid black;
+  border-radius: 20px; */
+  padding: 70px;
+  /* color: white;
+  background-color: black; */
+}
+
+@media only screen and (max-width: 480px) {
+  .right-arrow,
+  .left-arrow {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    top: 240px;
+  }
+
+  .work-item {
+    border: none;
+    padding: 20px;
+  }
 }

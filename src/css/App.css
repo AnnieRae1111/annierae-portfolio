@@ -40,8 +40,18 @@ body {
 .gd-portfolio {
   background-color: black;
 }
+
+.project-scroller {
+  display: none;
+}
 /* -----Scroll Section----- */
 
-/* @media only screen and (max-width: 480px) {
-  
-} */
+@media only screen and (max-width: 480px) {
+  .project-carousel {
+    display: none;
+  }
+
+  .project-scroller {
+    display: contents;
+  }
+}

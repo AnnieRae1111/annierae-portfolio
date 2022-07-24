@@ -42,22 +42,25 @@ const ProjectCarousel = () => {
   }
 
   return (
-    <section className="slider">
-      <FaArrowCircleLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />
-      {items.map((item, index) => {
-        return (
-          <section
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <div className="carousel-section">{item.component}</div>
-            )}
-          </section>
-        );
-      })}
-    </section>
+    <>
+      <h1 className="web-dev">Some Stuff I've Made:</h1>
+      <section className="slider-carousel">
+        <FaArrowCircleLeft className="left-arrow" onClick={prevSlide} />
+        <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />
+        {items.map((item, index) => {
+          return (
+            <section
+              className={index === current ? 'slide active' : 'slide'}
+              key={index}
+            >
+              {index === current && (
+                <div className="carousel-section">{item.component}</div>
+              )}
+            </section>
+          );
+        })}
+      </section>
+    </>
   );
 };
 
