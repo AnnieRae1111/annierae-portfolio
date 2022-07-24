@@ -17,6 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import clouds from './assets/Clouds.mp4';
 import AboutTwo from './components/pages/About2';
 import Clouds from './components/CloudsComponent';
+import ProjectCarousel from './components/ProjectCarousel';
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
                 <section className="skills-section">
                   <About />
                 </section>
-                <ProjectScroller />
+                {/* <ProjectScroller /> */}
+                <ProjectCarousel />
                 <section className="graphic-design-section">
                   <GraphicDesign />
                 </section>
