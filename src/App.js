@@ -53,7 +53,7 @@ function App() {
                 <div className="project-carousel">
                   <ProjectCarousel />
                 </div>
-                <Clouds />
+                {/* <Clouds /> */}
                 <section className="graphic-design-section">
                   <GraphicDesign />
                 </section>
@@ -76,7 +76,7 @@ function App() {
           {/* <Route path="/inquire" element={<Inquire />} /> */}
         </Routes>
       </main>
-      {/* <Clouds /> */}
+      <Clouds />
       <Footer />
     </div>
   );
