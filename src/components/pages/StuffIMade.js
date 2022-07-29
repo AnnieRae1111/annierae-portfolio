@@ -7,7 +7,7 @@ const StuffIMade = () => {
         Web Development
         <br />
         {/* <span className="scroll">(scroll)</span> <br /> */}
-        {/* <span className="this-way">this way</span> */}
+        <span className="this-way">(scroll)</span>
         <IoArrowForwardOutline className="arrow" />
       </h1>
     </div>
