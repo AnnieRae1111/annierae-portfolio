@@ -8,6 +8,8 @@ import dharmaDesigns from '../assets/dharma_designs.jpg';
 import nedBizCard from '../assets/NedBizCard.png';
 import AMA from '../assets/AmaFlyer.png';
 import infoCard from '../assets/AJInfoCard.png';
+import breathe from '../assets/BREATHE.jpg';
+import jennaLogos from '../assets/Jenna Logos.jpg';
 
 const GraphicDesign = () => {
   return (
@@ -79,6 +81,16 @@ const GraphicDesign = () => {
           <section className="gd-section">
             <div className="gd-image-container">
               <img className="infoCard" src={infoCard} alt="" />
+            </div>
+          </section>
+          <section className="gd-section">
+            <div className="gd-image-container">
+              <img className="infoCard jenna" src={jennaLogos} alt="" />
+            </div>
+          </section>
+          <section className="gd-section">
+            <div className="gd-image-container">
+              <img className="infoCard breathe" src={breathe} alt="" />
             </div>
           </section>
         </div>
