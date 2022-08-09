@@ -32,11 +32,39 @@
   justify-content: flex-start !important;
 }
 
+/* .container-fluid {
+  border: 1px solid;
+  justify-content: flex-end !important;
+  display: flex;
+}
+
+.collapse.collapse.show.navbar-collapse {
+  border: 1px solid;
+  justify-content: flex-end;
+} */
+
+.button.me-2,
 .collapse {
   display: flex;
+  /* border: 1px solid; */
+  right: 0 !important;
+
+  padding: 0;
+  margin-right: 0;
 }
 @media only screen and (max-width: 480px) {
   .nav-button {
     margin-left: 0px;
   }
+
+  /* .container-fluid {
+    border: 1px solid;
+    justify-content: flex-end !important;
+    display: flex;
+  }
+
+  .collapse.collapse.show.navbar-collapse {
+    border: 1px solid;
+    justify-content: flex-end;
+  } */
 }

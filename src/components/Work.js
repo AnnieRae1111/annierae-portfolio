@@ -1,5 +1,5 @@
 import '../css/work.css';
-import nasaApp from '../assets/in-the-stars.png';
+// import nasaApp from '../assets/in-the-stars.png';
 import inTheStars from '../assets/in-the-stars-with-stars.png';
 import {
   FaCss3Alt,

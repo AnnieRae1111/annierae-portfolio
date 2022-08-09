@@ -5,7 +5,7 @@ import WorkWar from './WorkWar';
 import Work from './Work';
 import '../css/scroller.css';
 import '../css/carousel.css';
-import StuffIMade from './pages/StuffIMade';
+// import StuffIMade from './pages/StuffIMade';
 import { FaArrowCircleRight, FaArrowCircleLeft } from 'react-icons/fa';
 
 const items = [
@@ -43,7 +43,7 @@ const ProjectCarousel = () => {
 
   return (
     <>
-      <h1 className="web-dev">Some Stuff I've Made:</h1>
+      <h1 className="web-dev">Web Development:</h1>
       <section className="slider-carousel">
         <FaArrowCircleLeft className="left-arrow" onClick={prevSlide} />
         <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />

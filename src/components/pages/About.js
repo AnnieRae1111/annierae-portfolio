@@ -31,17 +31,18 @@ const About = () => {
               <li className="skills-items-two"> • Graphic Design</li> */}
             </ul>
           </div>
-          <div className="backend">
-            <h2 className="back-title">Backend Development </h2>
-            <ul className="back-end-list">
-              <li className="skills-items">• Node JS</li>
-              <li className="skills-items">• Express</li>
-              <li className="skills-items">• MongoDB</li>
-              <li className="skills-items">• MySQL</li>
-              <li className="skills-items">• Python</li>
-              <li className="skills-items">• Django</li>
+          <div className="frontend">
+            <h2 className="front-title">Backend Development</h2>
+            <ul className="front-end-list">
+              <li className="skills-items-two">• Node JS</li>
+              <li className="skills-items-two">• Express JS</li>
+              <li className="skills-items-two">• MongoDB</li>
+              <li className="skills-items-two">• MySQL</li>
+              <li className="skills-items-two">• Python</li>
+              <li className="skills-items-two">• Django</li>
             </ul>
           </div>
+
           <div className="backend">
             <h2 className="back-title">Other Relevant Skills </h2>
             <ul className="back-end-list">
