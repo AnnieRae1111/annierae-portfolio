@@ -6,7 +6,8 @@ import Work from './Work';
 import '../css/scroller.css';
 import '../css/carousel.css';
 // import StuffIMade from './pages/StuffIMade';
-import { FaArrowCircleRight, FaArrowCircleLeft } from 'react-icons/fa';
+// import { FaArrowCircleRight, FaArrowCircleLeft } from 'react-icons/fa';
+import { IoArrowBackOutline, IoArrowForwardOutline } from 'react-icons/io5';
 
 const items = [
   // {
@@ -45,8 +46,8 @@ const ProjectCarousel = () => {
     <>
       <h1 className="web-dev">Web Development:</h1>
       <section className="slider-carousel">
-        <FaArrowCircleLeft className="left-arrow" onClick={prevSlide} />
-        <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />
+        <IoArrowBackOutline className="left-arrow" onClick={prevSlide} />
+        <IoArrowForwardOutline className="right-arrow" onClick={nextSlide} />
         {items.map((item, index) => {
           return (
             <section
