@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import '../../css/NavbarResponsive.css';
 // import { Link } from 'react-router-dom';
-import Resume from '../../assets/AnnieRae-Resume.pdf';
+// import Resume from '../../assets/AnnieRae-Resume.pdf';
+import FullStackResume from '../../assets/AnnieRae Cioccolanti Full Stack- SE Resume .pdf';
 
 import {
   Navbar,
@@ -50,7 +51,7 @@ const NavbarResponsive = () => {
                 Inquire
               </NavLink>
             </NavItem> */}
-            <a href={Resume} download>
+            <a href={FullStackResume} download>
               {' '}
               <Button className="nav-button">Resume</Button>
             </a>
