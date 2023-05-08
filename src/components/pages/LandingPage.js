@@ -69,7 +69,7 @@ const LandingPage = () => {
             <h2 className="line-1 anim-typewriter heading">AnnieRae</h2>
             <p className="tagline">I create things for the digital realms.</p>
             <p className="landing-info">
-              I'm a creative web developer with a passion for design and the
+              I'm a creative software engineer with a passion for design and the
               user experience. I am excited about creating optimized, efficient
               and unique web-based experiences that provide solutions to amplify
               your online presence.
