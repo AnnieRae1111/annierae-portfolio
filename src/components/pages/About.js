@@ -4,7 +4,7 @@ const About = () => {
     <>
       <h1 className="about-header text-center container">More About Me :</h1>
       <h4 className="about-text container">
-        {' '}
+        {/* {' '}
         I'm a detail-oriented full stack software engineer with a passion for
         frontend design and the user experience. I'm a motivated self-starter
         excited about creating responsive and efficient web-based experiences.
@@ -14,7 +14,12 @@ const About = () => {
         patient problem solver with the ability to multi-task and deliver in
         high pressure, chaotic environments. I have a professional background in
         artist management, graphic design and social media marketing, developing
-        grit, flexibility and a dedicated work ethic.{' '}
+        grit, flexibility and a dedicated work ethic.{' '} */}{' '}
+        Highly motivated and detail-oriented Full Stack Software Engineer with a
+        proven track record of working on professional teams. Adept in
+        Object-Oriented Programming, including C# and .NET, SQL, SSRS, and
+        JavaScript, with experience in Test Driven Development, Agile
+        methodologies, and effective communication and collaboration skills.{' '}
       </h4>
       <div className="about-section">
         <div className="section-divider">
@@ -37,19 +42,20 @@ const About = () => {
               <li className="skills-items-two">• Node JS</li>
               <li className="skills-items-two">• Express JS</li>
               <li className="skills-items-two">• MongoDB</li>
-              <li className="skills-items-two">• MySQL</li>
               <li className="skills-items-two">• Python</li>
               <li className="skills-items-two">• Django</li>
+              <li className="skills-items-two">• SQL</li>
+              <li className="skills-items-two">• C#</li>
+              <li className="skills-items-two">• SSRS</li>
             </ul>
           </div>
 
           <div className="backend">
             <h2 className="back-title">Other Relevant Skills </h2>
             <ul className="back-end-list">
-              <li className="skills-items">• Brand Management</li>
-
-              <li className="skills-items">• E-Commerce</li>
-              <li className="skills-items">• Social Media Marketing</li>
+              <li className="skills-items">• .NET</li>
+              <li className="skills-items">• OOP</li>
+              <li className="skills-items">• HR Payroll & HCM</li>
               <li className="skills-items">• UX/UI</li>
               <li className="skills-items">• Graphic Design</li>
             </ul>

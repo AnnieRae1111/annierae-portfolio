@@ -2,7 +2,7 @@ import { useState } from 'react';
 import '../../css/NavbarResponsive.css';
 // import { Link } from 'react-router-dom';
 // import Resume from '../../assets/AnnieRae-Resume.pdf';
-import FullStackResume from '../../assets/AnnieRae Cioccolanti Full Stack- SE Resume .pdf';
+import FullStackResume from '../../assets/Resume 2023.pdf';
 
 import {
   Navbar,
