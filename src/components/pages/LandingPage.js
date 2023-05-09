@@ -69,17 +69,10 @@ const LandingPage = () => {
             <h2 className="line-1 anim-typewriter heading">AnnieRae</h2>
             <p className="tagline">I create things for the digital realms.</p>
             <p className="landing-info">
-              Compassionate and detail-oriented full stack software engineer
-              with a proven track record of working on professional teams.
-              Motivated and curious self-starter excited about creating
-              responsive and efficient web-based products that make an impact. A
-              passion for frontend design, development and the user experience.
-              A strong believer in the importance of learning and forever having
-              a growth mindset. Patient problem solver with the ability to
-              multi-task and deliver in high pressure, chaotic environments. A
-              professional background in software development, artist
-              management, graphic design and marketing, developing grit,
-              flexibility and a dedicated work ethic.
+              I'm a creative software engineer with a passion for design and the
+              user experience. I am excited about creating optimized, efficient
+              and unique web-based experiences that provide solutions to amplify
+              your online presence.
             </p>
             {/* <IoMdArrowDown className="scroll-down" /> */}
             <a href="mailto:annierae.elizabeth@gmail.com">

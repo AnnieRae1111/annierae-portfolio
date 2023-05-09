@@ -15,11 +15,16 @@ const About = () => {
         high pressure, chaotic environments. I have a professional background in
         artist management, graphic design and social media marketing, developing
         grit, flexibility and a dedicated work ethic.{' '} */}{' '}
-        Highly motivated and detail-oriented Full Stack Software Engineer with a
-        proven track record of working on professional teams. Adept in
-        Object-Oriented Programming, including C# and .NET, SQL, SSRS, and
-        JavaScript, with experience in Test Driven Development, Agile
-        methodologies, and effective communication and collaboration skills.{' '}
+        Compassionate and detail-oriented full stack software engineer with a
+        proven track record of working on professional teams. Motivated and
+        curious self-starter excited about creating responsive and efficient
+        web-based products that make an impact. A passion for frontend design,
+        development and the user experience. A strong believer in the importance
+        of learning and forever having a growth mindset. Patient problem solver
+        with the ability to multi-task and deliver in high pressure, chaotic
+        environments. A professional background in software development, artist
+        management, graphic design and marketing, developing grit, flexibility
+        and a dedicated work ethic.{' '}
       </h4>
       <div className="about-section">
         <div className="section-divider">
