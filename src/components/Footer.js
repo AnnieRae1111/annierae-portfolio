@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="footer-input container">
           Get In Touch :
           <p className="footer-text">
-            I am currently open to web design and development opportunities or
+            {/* I am currently open to web design and development opportunities or
             collaborations. If you are interested in learning more or think we
             would be a good fit please don't hesitate to reach out and I will
-            get back to you within 48 hours. Let's make some{' '}
-            <span className="magic">MAGIC</span>.{' '}
+            get back to you within 48 hours. Let's make some{' '} */}
+            {/* <span className="magic">MAGIC</span>.{' '} */}
           </p>
         </div>
         <div className="footer-icons">

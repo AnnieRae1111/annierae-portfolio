@@ -19,28 +19,30 @@ const AboutTwo = () => {
             <p className="about-two-h4">
               {/* <span className="hello-world">Hello World,</span> */}
               <br />
-              I'm a detail-oriented full stack software engineer with a passion
-              for frontend design and the user experience. I'm excited about
-              creating responsive and efficient web-based experiences that help
-              level up your brand and online presence. With a background in
-              artist mangagement, e-commerce and social media marketing, my
-              speciality is creating stunning web based experiences that are
-              intentional, functional and profitable.
+              I’m a full stack software engineer with a unique career
+              path—starting in creative brand management and evolving into
+              security-focused software development. After leading global
+              digital campaigns and managing e-commerce platforms, I
+              transitioned into tech through an immersive 420+ hour bootcamp and
+              haven’t looked back. Today, I specialize in building scalable
+              authentication systems, cloud-native APIs, and high-reliability
+              backend services. My current role at Paycor places me on a
+              fast-moving security team, where I’ve designed authentication
+              flows, migrated sensitive data to Azure, improved fraud detection,
+              and supported mission-critical deployments using CI/CD pipelines
+              and observability tools like Application Insights. I bring both
+              creative agility and technical discipline. During my time at
+              Sentric HR, I developed features using C# and JavaScript,
+              collaborated with QA and Product, and built reports using SSRS and
+              SQL Server. My earlier experience managing a digital artist’s
+              brand taught me how to lead projects, scale systems, and stay
+              adaptable—skills I now apply to software delivery and DevOps
+              practices. I thrive in collaborative environments where solving
+              hard problems is part of the culture. Whether I’m writing
+              test-driven code, improving database performance, or strengthening
+              authentication protocols, I’m driven to make systems stronger,
+              smarter, and safer.
               <br />
-              <br />
-              {/* <p className="about-two-h4"> */}I have a bachelors degree in
-              business with a minor in marketing and a full stack software
-              engineer bootcamp certification. Before launching my design studio
-              in 2022, I previously worked for world renowned digital artist and
-              creator Android Jones where I developed a strong understanding of
-              and keen eye for design principles and best practices.
-              {/* </p> */}
-              {/* <p className="about-two-h4"> */}
-              <br />
-              <br />I currently live in Boulder, CO where I spend the majority
-              of my time. When I’m not designing or developing you can find me
-              traveling , exploring the outdoors, practicing yoga, reading or
-              enjoying live music.
               {/* </p> */}
             </p>
           </div>
@@ -49,27 +51,40 @@ const AboutTwo = () => {
       <div className="about-section">
         <div className="section-divider">
           <div className="frontend-two">
-            <h2 className="front-title-two">Frontend Development </h2>
+            <div className="title-container">
+              <h2 className="front-title-two">Frontend Development</h2>
+            </div>
             <ul className="front-end-list-two">
               <li className="skills-items-two">HTML</li>
               <li className="skills-items-two">CSS</li>
-              <li className="skills-items-two">Bootstrap</li>
-              <li className="skills-items-two">Tailwind CSS</li>
               <li className="skills-items-two">JavaScript</li>
               <li className="skills-items-two">React</li>
-              <li className="skills-items-two">UX/UI </li>
-              <li className="skills-items-two">Graphic Design</li>
+              <li className="skills-items-two">TypeScript</li>
+              <li className="skills-items-two">Angular</li>
+              <li className="skills-items-two">Angular</li>
+              <li className="skills-items-two">Figma</li>
+              <li className="skills-items-two">Photoshop</li>
+              <li className="skills-items-two">Illustrator</li>
+              <li className="skills-items-two">Responsive Design</li>
             </ul>
           </div>
           <div className="backend-two">
-            <h2 className="back-title-two">Backend Development </h2>
+            <div className="title-container">
+              <h2 className="back-title-two">Backend Development</h2>
+            </div>
             <ul className="back-end-list-two">
-              <li className="skills-items-two">Node JS</li>
-              <li className="skills-items-two">Express</li>
-              <li className="skills-items-two">MongoDB</li>
-              <li className="skills-items-two">MySQL</li>
-              <li className="skills-items-two">Python</li>
-              <li className="skills-items-two">Django</li>
+              <li className="skills-items-two">#C</li>
+              <li className="skills-items-two">.NET</li>
+              <li className="skills-items-two">Microsoft Azure</li>
+              <li className="skills-items-two">Scalable APIs</li>
+              <li className="skills-items-two">SQL</li>
+              <li className="skills-items-two">Azuare Storage</li>
+              <li className="skills-items-two">Cosmos DB</li>
+              <li className="skills-items-two">Snowflake</li>
+              <li className="skills-items-two">OAuth/OIDC</li>
+              <li className="skills-items-two">CI/CD</li>
+              <li className="skills-items-two">Azure Functions</li>
+              <li className="skills-items-two">Test Driven Development</li>
             </ul>
           </div>
         </div>

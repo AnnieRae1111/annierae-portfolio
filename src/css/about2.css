@@ -79,60 +79,91 @@ span.hello-world-desktop {
   display: none;
 }
 
+.frontend-two:hover,
+.backend-two:hover {
+  background-color: transparent; /* Make the parent div's background transparent */
+  color: black; /* Set the text color to black */
+  border: 1px solid black; /* Optional: Adjust the border color */
+}
+
+.frontend-two:hover *,
+.backend-two:hover * {
+  background-color: transparent !important; /* Force all child elements to have a transparent background */
+  color: black; /* Ensure all child elements have black text */
+}
 .frontend-two,
 .backend-two {
   background-color: black;
   color: #f2efe9;
-  /* border: 1px solid white; */
-  width: 50%;
+  border: 1px solid white;
+  width: 90%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+  flex-direction: column;
+  align-items: left;
+  justify-content: flex-start; /* Align content to the top */
+  padding: 2rem;
   margin: 2rem;
   border-radius: 10px;
-  height: 350px;
-  width: 35%;
-  flex-direction: column;
+  height: 350px; /* Ensure both divs have the same height */
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
-.frontend-two:hover {
-  color: black;
-  background-color: transparent;
-  border: 1px solid black;
-}
-.backend-two:hover {
-  color: black;
-  background-color: transparent;
-  border: 1px solid black;
-}
-
-.skills-items-two {
-  display: flex;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  width: 118px;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-.front-title-two,
-.back-title-two {
-  justify-content: center;
-  font-family: 'zephyrregular';
-  font-size: 30px;
-  margin: 1rem;
-  margin-top: 0;
-}
-
+/* List styling */
 .front-end-list-two,
 .back-end-list-two {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust spacing between items */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* List item styling */
+.skills-items-two {
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: left;
+  color: #f2efe9; /* Set the text color to off-white */
+  background-color: transparent; /* Remove the background color */
+  border-radius: 0; /* Remove rounded corners */
+  box-shadow: none; /* Remove the shadow */
+  font-family: 'Roboto', sans-serif;
+}
+
+.front-title-two,
+.back-title-two {
+  font-family: 'zephyrregular', sans-serif;
+  font-size: 30px;
+  color: #f2efe9;
+  margin: 0; /* Remove default margin */
+}
+
+.title-container {
+  width: 100%; /* Ensure it spans the full width of the parent */
+  text-align: center; /* Center the title text */
+  margin-bottom: 1rem; /* Add spacing below the title */
+}
+
+/* Title styling */
+.front-title-two,
+.back-title-two {
+  font-family: 'zephyrregular', sans-serif;
+  font-size: 30px;
+  color: #f2efe9;
+  margin: 0; /* Remove default margin */
 }
 
 .about-text-two {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.about-text-two p {
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -146,18 +177,30 @@ ul {
 
 @media only screen and (max-width: 480px) {
   .about-text-two {
-    font-size: 18px;
+    font-size: 16px; /* Slightly smaller font for mobile */
+    padding: 10px; /* Add padding for better spacing */
+    text-align: center; /* Ensure text is centered */
+  }
+
+  .about-text-two p {
+    font-size: 15px; /* Slightly smaller font size for desktop */
+    padding: 0 10px 10px 10px;
+    text-align: left;
   }
   .frontend-two,
   .backend-two {
-    width: 90%;
+    width: 100%; /* Make the divs take the full width */
+    padding: 1rem; /* Reduce padding for smaller screens */
+    margin: 1rem auto; /* Reduce margin to save space */
+    height: auto; /* Allow the height to adjust dynamically */
   }
   .section-divider {
     flex-direction: column;
   }
   .front-end-list-two,
   .back-end-list-two {
-    width: 110%;
+    width: 100%;
+    padding: 1rem;
     justify-content: center;
     text-align: center;
   }
@@ -167,7 +210,8 @@ ul {
   }
 
   .skills-items-two {
-    font-size: 18px;
+    font-size: 16px; /* Smaller font size for mobile */
+    padding: 8px 10px; /* Compact padding */
   }
 
   .about-image-container {

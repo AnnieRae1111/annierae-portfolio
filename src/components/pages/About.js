@@ -31,38 +31,44 @@ const About = () => {
           <div className="frontend">
             <h2 className="front-title">Frontend Development </h2>
             <ul className="front-end-list">
-              <li className="skills-items-two">• HTML</li>
-              <li className="skills-items-two">• CSS</li>
-              <li className="skills-items-two">• Bootstrap</li>
-              <li className="skills-items-two">• Tailwind CSS</li>
-              <li className="skills-items-two">• JavaScript</li>
-              <li className="skills-items-two">• React</li>
-              {/* <li className="skills-items-two">• UX/UI </li>
-              <li className="skills-items-two"> • Graphic Design</li> */}
+              <li className="skills-items">HTML</li>
+              <li className="skills-items">CSS</li>
+              <li className="skills-items">SCSS</li>
+              <li className="skills-items">JavaScript</li>
+              <li className="skills-items">React</li>
+              <li className="skills-items">TypeScript</li>
+              <li className="skills-items">Angular</li>
+              <li className="skills-items">Responsive Design</li>
             </ul>
           </div>
           <div className="frontend">
             <h2 className="front-title">Backend Development</h2>
-            <ul className="front-end-list">
-              <li className="skills-items-two">• Node JS</li>
-              <li className="skills-items-two">• Express JS</li>
-              <li className="skills-items-two">• MongoDB</li>
-              <li className="skills-items-two">• Python</li>
-              <li className="skills-items-two">• Django</li>
-              <li className="skills-items-two">• SQL</li>
-              <li className="skills-items-two">• C#</li>
-              <li className="skills-items-two">• SSRS</li>
+            <ul className="back-end-list">
+              <li className="skills-items">#C</li>
+              <li className="skills-items">.NET</li>
+              <li className="skills-items">OOP</li>
+              <li className="skills-items">Scalable APIs</li>
+              <li className="skills-items">SQL</li>
+              <li className="skills-items">Azuare Storage</li>
+              <li className="skills-items">Cosmos DB</li>
+              <li className="skills-items">Snowflake</li>
+              <li className="skills-items">OAuth/OIDC</li>
+              <li className="skills-items">CI/CD</li>
+              <li className="skills-items">Azure Functions</li>
+              <li className="skills-items">Test Driven Development</li>
             </ul>
           </div>
 
           <div className="backend">
             <h2 className="back-title">Other Relevant Skills </h2>
             <ul className="back-end-list">
-              <li className="skills-items">• .NET</li>
-              <li className="skills-items">• OOP</li>
-              <li className="skills-items">• HR Payroll & HCM</li>
-              <li className="skills-items">• UX/UI</li>
-              <li className="skills-items">• Graphic Design</li>
+              <li className="skills-items">Microsoft Azure</li>
+              <li className="skills-items">Role Based Access</li>
+              <li className="skills-items">Figma</li>
+              <li className="skills-items">Photoshop</li>
+              <li className="skills-items">Illustrator</li>
+              <li className="skills-items">UX/UI</li>
+              <li className="skills-items">Graphic Design</li>
             </ul>
           </div>
         </div>

@@ -12,62 +12,60 @@
   align-items: center;
   justify-content: center;
 }
-
 .frontend,
 .backend {
   background-color: #f2efe9;
   color: black;
-  /* border: 1px solid white; */
-  width: 50%;
+  border: 1px solid white;
+  width: 30%; /* Fixed width for all divs */
+  height: 300px; /* Fixed height for all divs */
   display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  padding: 1rem;
-  margin: 2rem;
-  border-radius: 10px;
-  height: 350px;
-  width: 35%;
   flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  justify-content: flex-start; /* Aligns content to the top */
+  padding: 1rem;
+  margin: 1rem; /* Adds spacing between divs */
+  border-radius: 10px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
-  /* border-radius: 200px 0 200px 0; */
+  box-sizing: border-box; /* Ensures padding is included in width/height */
+  overflow: hidden; /* Prevents content overflow */
+}
+.frontend:hover,
+.backend:hover {
+  background-color: transparent; /* Make the parent div's background transparent */
+  color: f2efe9; /* Set the text color to black */
+  border: 1px solid #f2efe9; /* Optional: Adjust the border color */
 }
 
-.frontend:hover {
-  color: #f2efe9;
-  background-color: black;
-  border: 1px solid #f2efe9;
-  transform: scale(1.1);
-  /* border-radius: 200px 0 200px 0; */
-}
-.backend:hover {
-  color: #f2efe9;
-  background-color: black;
-  border: 1px solid #f2efe9;
-  transform: scale(1.1);
+.frontend:hover *,
+.backend:hover * {
+  background-color: transparent !important; /* Force all child elements to have a transparent background */
+  color: #f2efe9; /* Ensure all child elements have black text */
 }
 
 .skills-items {
-  display: flex;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  /* width: 170px; */
-  width: 100%;
-  /* white-space: nowrap; */
-  padding: 2px;
-  justify-content: center;
-  /* align-items: center; */
+  font-size: 18px; /* Adjust font size for better fit */
+  padding: 4px 8px; /* Adds padding inside each item */
+  text-align: center; /* Centers text within each item */
+  color: black; /* Sets text color */
+  background-color: #f2efe9; /* Adds a background color *
+  font-family: 'Roboto', sans-serif; /* Sets font */
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides any overflowing text */
 }
 
 .front-title,
 .back-title {
-  justify-content: center;
   font-family: 'zephyrregular';
-  font-size: 30px;
-  margin: 1rem;
-  margin-top: 50px;
+  padding: 1rem;
+  font-size: 24px; /* Adjusted font size for better fit */
+  margin: 0; /* Remove default margin */
+  margin-bottom: 10px; /* Add a smaller gap below the title */
+  text-align: center;
 }
 
 .front-end-list,
@@ -75,8 +73,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  height: 50%;
+  gap: 10px; /* Adjust spacing between items */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-text {
@@ -98,6 +99,7 @@ ul {
   .frontend,
   .backend {
     width: 90%;
+    padding: 5px;
   }
   .section-divider {
     flex-direction: column;
