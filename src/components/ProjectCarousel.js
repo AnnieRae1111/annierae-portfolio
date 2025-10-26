@@ -44,7 +44,7 @@ const ProjectCarousel = () => {
 
   return (
     <>
-      <h1 className="web-dev">Web Development:</h1>
+      <h1 className="web-dev">Work:</h1>
       <section className="slider-carousel">
         <IoArrowBackOutline className="left-arrow" onClick={prevSlide} />
         <IoArrowForwardOutline className="right-arrow" onClick={nextSlide} />

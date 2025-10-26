@@ -64,6 +64,7 @@ const About = () => {
             <ul className="back-end-list">
               <li className="skills-items">Microsoft Azure</li>
               <li className="skills-items">Role Based Access</li>
+              <li className="skills-items">Microservices</li>
               <li className="skills-items">Figma</li>
               <li className="skills-items">Photoshop</li>
               <li className="skills-items">Illustrator</li>
